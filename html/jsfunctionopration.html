@@ -1,0 +1,36 @@
+<html>
+<body>
+enter num1<input type="text" name="n1"/><br><br>
+enter num2<input type="text" name="n2"/><br><br>
+enter op<input type="text" name="ol"/><br><br>
+<input type="button" value="operation" onclick="evalnumber(document.getElementByName(n1)[0].value);"/>
+(document.getElementByName('n1')[0].value);"/>
+(documenet.getElementByName('n2')[0].value);/>
+</body>
+<script>
+function evalNumber(num1,num2,op)
+{
+var num1,num2,op;
+num1=parseInt(document.getElementByName('n1')[0].value);
+num2=(parseIntdocumenet.getElementByName('n2')[0].value);
+if(op=="add")
+{
+addition=num1+num2;
+alert("addition is +"addition);
+}
+if(op=="sub")
+{
+subtraction=num1-num2;
+alert("subtraction is +"subtraction");
+}
+if(op=="mul")
+{
+multiplication=num1*num2;
+alert("multiplication +multiplication");
+}
+else
+{
+alert("invalid opration")
+}
+</script>
+</html>

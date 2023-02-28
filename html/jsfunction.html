@@ -1,0 +1,27 @@
+<html>
+<script>
+function find Triangle type(side1,side2,side3)
+{
+if((side1==side2)&&(side1==side3))
+{
+alert(equilateral triangle.)
+}
+else if((side1==side2)||(side2==side3)||(side1==side3))
+{
+alert(isosceles triangle.)
+}
+else{
+alert(scalene triangle.)
+}
+}
+</script>
+<body>
+enter side1:<input type=text name="n1"/>
+<br>
+enter side2:<input type=text name="n2"/>
+<br>
+enter side3:<input type=text name="n3"/>
+<br>
+<input type=button value="submit" onclick="find Triangle Type(documenet.getElementsByName('n1')[0].value documenet.getElementsByName('n2')[0] value,document,getElementName('n3')[0].value);"/>
+</body>
+</html>
