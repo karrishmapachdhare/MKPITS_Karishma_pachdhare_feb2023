@@ -1,9 +1,76 @@
 <html>
+<body>
+<table align=center border=1 heigth=70 width=120>
+<tr>
+<th><input=button id="b1" value="-" onclick="one()";/></button></th>
+<th><input=button id="b2" value="-" onclick="two();"/></button></th>
+<th><input=button id="b3" value="-" onclick="three()"/></button></th>
+</tr>
+</table>
+
+<center><input type=button value="start" onclick="start();"/></center>
+</body>
 <script>
-var num;
-for (num=1;num<=10;num++)
+var arr=new Array();
+var num=3;
+do
 {
-document.write(num+"<br>")
+var n1=Math.floor(Math.random()*3)+1;
+if(! arr.includes(n1))
+{
+arr.push(n1);
+}
+ }while(arr.length<num);
+function start()
+{
+document.getElementById("b1").innerHTML=arr[0];
+document.getElementById("b2").innerHTML=arr[1];
+document.getElementById("b3").innerHTML=arr[2];
+}
+function start()
+{
+var arr1=[1,2,3];
+var result=0;
+var x;
+function one()
+{
+x=document.getgetElementById("b1").innerHTML;
+if(arr1[result]==x)
+{
+result=result+1;
+}
+else
+{
+alert("you lost the game try again !")
+}
+}
+function two()
+{
+x=document.getgetElementById("b2").innerHTML;
+if(arr1[result]==x)
+{
+result=result+1;
+}
+else
+{
+alert("you lost the game try again !")
+}
+}
+function three()
+{
+x=document.getgetElementById("b3").innerHTML;
+if(arr1[result]==x)
+{
+result=result+1;
+}
+else
+{
+alert("you lost the game try again")
+}
+}
+if(result==3)
+{
+alert("congratulation you won the game");
 }
 </script>
 </html>

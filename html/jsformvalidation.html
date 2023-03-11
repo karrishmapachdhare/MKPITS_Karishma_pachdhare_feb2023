@@ -1,10 +1,8 @@
 <html>
 <body>
-<form method="post" action="styleprg3.html" onsubmit="return check">
-username=<input type="text" id="un"></br>
-pass=<input type="text" id="up"></br>
-<input type="submit" value="submit"/>
-</form>
+username=<input type="text" id="un">
+pass=<input type="text" id="up">
+<input type="button" value="submit" onclick="check();"/>
 </body>
 <script>
 function check()
@@ -14,12 +12,10 @@ var pass=document.getElementById("up").value;
  if(username=="" && password=="")
 {
 alert("please enter username and password")
-return false;
 }
-else if(pass.length<6)
+else
 {
 alert("welcom user"+ username)
-return false;
 }
 }
 </script>
