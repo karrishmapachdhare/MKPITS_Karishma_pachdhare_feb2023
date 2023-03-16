@@ -1,0 +1,13 @@
+<!-- Create a program that generates a random number between 1 and 100. -->
+<html>
+<script>
+function start()
+{
+document.getElementById("in").innerHTML = Math.floor(Math.random()*100)+1;
+}
+</script>
+<body>
+    <span id="in"></span><br>
+    <input type="button" value="start" onclick="start();">
+</body>
+</html>

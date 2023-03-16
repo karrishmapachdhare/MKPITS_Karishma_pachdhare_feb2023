@@ -1,0 +1,29 @@
+<!--Write a program that checks if a given word is a palindrome.-->
+<html>
+<script>
+function palindrome()
+{
+var reverse=0,rem;
+var num = document.getElementById("n1").value;
+num1 = num;
+while(num>0)
+{
+    rem = num%10;
+    reverse = reverse*10+rem;
+    num = Math.floor(num/10);
+}
+    if(num1 == reverse)
+    {
+        document.getElementById("in").innerHTML = num1 + " is palindrome as " + reverse;
+    }
+    else
+    document.getElementById("in").innerHTML = num1 + " is not a palindrome as " + reverse;
+    // alert(num1);
+}
+</script>
+<body>
+Enter number : <input type="text" id="n1"><br><br> 
+<input type="button" value="Palindrome" onclick="palindrome();"><br>
+<span id="in"></span>
+</body>
+</html>
