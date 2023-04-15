@@ -1,0 +1,28 @@
+              <html>
+              
+               <script language="javascript">
+                
+                  function student_info()
+                 
+                   {
+              
+                   var firstname,lastname,email_stud,mobno_stud;
+                   firstname=parseInt(document.getElementById("firstname").value);
+                   lastname=parseInt(document.getElementById("lastname").value);
+                   email_stud=parseInt(document.getElementById("email_stud").value);
+                   mobno_stud=parseInt(document.getElementById("mobno_stud").value);
+                   
+                   document.getElementById("firstname").innerHTML="firstname:"+first_name;
+                  document.getElementById("lastname").innerHTML="lastname:"+lastname;    
+                  document.getElementById("email_stud").innerHTML="email_stud:"+email_stud;
+                  document.getElementById("mobno_stud").innerHTML="mobno_stud:"+mobno_stud;
+                 </script>
+                 <body>
+
+                  <br><br><input type="button" value="submit" onclick="submit();">
+                  
+                 
+                  <span id="student_info"><br></span>
+             </body>
+      
+        </html>

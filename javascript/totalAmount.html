@@ -1,0 +1,19 @@
+<html>
+<body>
+productname:<input type="text" id="pro"/><br>
+rate:<input type="text" id="rate"/><br>
+quality:<input type="text" id="qual"/><br>
+<input type="button" value="ok" onclick="total amount()"/><br><br>
+<span id="pvr">total amount:</span>
+</body>
+<script language="javascript">
+function total amount()
+{
+var rate,quality,total;
+rate=parseInt(document.getElementById("rate").value;
+quality=parseInt(document.getElementById("quality").value;
+total=rate*quality;
+document.getElementById("pvr").innerHTML="total amount"+total;
+}
+</script>
+</html>
