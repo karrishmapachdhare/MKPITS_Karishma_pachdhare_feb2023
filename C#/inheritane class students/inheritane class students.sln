@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritane class students", "inheritane class students\inheritane class students.csproj", "{8DDA8B5A-A7F4-4BFA-A44C-E38B99AD53BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DDA8B5A-A7F4-4BFA-A44C-E38B99AD53BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDA8B5A-A7F4-4BFA-A44C-E38B99AD53BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDA8B5A-A7F4-4BFA-A44C-E38B99AD53BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDA8B5A-A7F4-4BFA-A44C-E38B99AD53BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6528CC80-D21F-41DE-B134-ABE9D5AAEF66}
+	EndGlobalSection
+EndGlobal

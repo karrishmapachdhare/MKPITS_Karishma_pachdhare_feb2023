@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: oerloadingpg employee details, Configuration: Debug Any CPU ------
+1>  oerloadingpg employee details -> C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\oerloadingpg employee details\oerloadingpg employee details\bin\Debug\oerloadingpg employee details.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 2:23 PM and took 00.308 seconds ==========
