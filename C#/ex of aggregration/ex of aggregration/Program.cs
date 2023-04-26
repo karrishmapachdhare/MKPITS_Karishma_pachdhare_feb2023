@@ -21,7 +21,7 @@ namespace ex_of_aggregration
     {
         int empno;
         string name;
-        address add;
+        address add;//(class address refrence)
         public employee(int empno, string name, address add)
         {
             this.empno = empno;
@@ -30,10 +30,10 @@ namespace ex_of_aggregration
         }
         public void display()
         {
-            Console.WriteLine("empno");
-            Console.WriteLine("name");
-            Console.WriteLine("add.city");
-            Console.WriteLine("add.status");
+            Console.WriteLine(empno);
+            Console.WriteLine(name);
+            Console.WriteLine(add.city);
+            Console.WriteLine(add.state);
         }
     }
             
