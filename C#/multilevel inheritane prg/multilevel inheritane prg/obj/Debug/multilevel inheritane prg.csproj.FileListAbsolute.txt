@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\bin\Debug\multilevel inheritane prg.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\bin\Debug\multilevel inheritane prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\bin\Debug\multilevel inheritane prg.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\obj\Debug\multilevel inheritane prg.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\obj\Debug\multilevel inheritane prg.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\obj\Debug\multilevel inheritane prg.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\obj\Debug\multilevel inheritane prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritane prg\multilevel inheritane prg\obj\Debug\multilevel inheritane prg.pdb

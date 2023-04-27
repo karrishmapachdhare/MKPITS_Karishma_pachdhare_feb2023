@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\bin\Debug\destructor prg.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\bin\Debug\destructor prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\bin\Debug\destructor prg.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\obj\Debug\destructor prg.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\obj\Debug\destructor prg.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\obj\Debug\destructor prg.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\obj\Debug\destructor prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\destructor prg\destructor prg\obj\Debug\destructor prg.pdb

@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\bin\Debug\hericharical inheritane.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\bin\Debug\hericharical inheritane.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\bin\Debug\hericharical inheritane.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\obj\Debug\hericharical inheritane.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\obj\Debug\hericharical inheritane.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\obj\Debug\hericharical inheritane.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\obj\Debug\hericharical inheritane.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\hericharical inheritane\hericharical inheritane\obj\Debug\hericharical inheritane.pdb

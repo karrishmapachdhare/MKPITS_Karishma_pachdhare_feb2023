@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\bin\Debug\interfaeIAount.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\bin\Debug\interfaeIAount.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\bin\Debug\interfaeIAount.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\obj\Debug\interfaeIAount.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\obj\Debug\interfaeIAount.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\obj\Debug\interfaeIAount.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\obj\Debug\interfaeIAount.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\interfaeIAount\interfaeIAount\obj\Debug\interfaeIAount.pdb

@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\bin\Debug\base drived class prg.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\bin\Debug\base drived class prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\bin\Debug\base drived class prg.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\obj\Debug\base drived class prg.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\obj\Debug\base drived class prg.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\obj\Debug\base drived class prg.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\obj\Debug\base drived class prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\base drived class prg\base drived class prg\obj\Debug\base drived class prg.pdb

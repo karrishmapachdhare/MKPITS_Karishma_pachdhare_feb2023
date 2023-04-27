@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\bin\Debug\advantages of inheritance.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\bin\Debug\advantages of inheritance.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\bin\Debug\advantages of inheritance.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\obj\Debug\advantages of inheritance.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\obj\Debug\advantages of inheritance.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\obj\Debug\advantages of inheritance.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\obj\Debug\advantages of inheritance.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\advantages of inheritance\advantages of inheritance\obj\Debug\advantages of inheritance.pdb

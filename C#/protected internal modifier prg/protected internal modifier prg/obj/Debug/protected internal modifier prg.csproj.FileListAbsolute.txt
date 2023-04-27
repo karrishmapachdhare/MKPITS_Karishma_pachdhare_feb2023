@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\bin\Debug\protected internal modifier prg.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\bin\Debug\protected internal modifier prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\bin\Debug\protected internal modifier prg.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\obj\Debug\protected internal modifier prg.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\obj\Debug\protected internal modifier prg.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\obj\Debug\protected internal modifier prg.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\obj\Debug\protected internal modifier prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\protected internal modifier prg\protected internal modifier prg\obj\Debug\protected internal modifier prg.pdb

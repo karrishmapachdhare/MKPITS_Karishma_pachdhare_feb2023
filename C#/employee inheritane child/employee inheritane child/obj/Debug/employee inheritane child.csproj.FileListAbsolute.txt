@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\bin\Debug\employee inheritane child.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\bin\Debug\employee inheritane child.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\bin\Debug\employee inheritane child.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\obj\Debug\employee inheritane child.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\obj\Debug\employee inheritane child.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\obj\Debug\employee inheritane child.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\obj\Debug\employee inheritane child.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee inheritane child\employee inheritane child\obj\Debug\employee inheritane child.pdb

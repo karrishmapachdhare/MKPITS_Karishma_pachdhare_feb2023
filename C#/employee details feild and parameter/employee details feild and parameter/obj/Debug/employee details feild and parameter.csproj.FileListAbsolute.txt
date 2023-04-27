@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\bin\Debug\employee details feild and parameter.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\bin\Debug\employee details feild and parameter.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\bin\Debug\employee details feild and parameter.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\obj\Debug\employee details feild and parameter.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\obj\Debug\employee details feild and parameter.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\obj\Debug\employee details feild and parameter.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\obj\Debug\employee details feild and parameter.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee details feild and parameter\employee details feild and parameter\obj\Debug\employee details feild and parameter.pdb

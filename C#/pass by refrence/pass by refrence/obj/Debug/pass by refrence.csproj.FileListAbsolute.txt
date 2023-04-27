@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\bin\Debug\pass by refrence.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\bin\Debug\pass by refrence.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\bin\Debug\pass by refrence.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\obj\Debug\pass by refrence.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\obj\Debug\pass by refrence.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\obj\Debug\pass by refrence.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\obj\Debug\pass by refrence.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by refrence\pass by refrence\obj\Debug\pass by refrence.pdb

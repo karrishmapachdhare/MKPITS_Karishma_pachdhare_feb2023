@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\bin\Debug\staticfieldex.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\bin\Debug\staticfieldex.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\bin\Debug\staticfieldex.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\obj\Debug\staticfieldex.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\obj\Debug\staticfieldex.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\obj\Debug\staticfieldex.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\obj\Debug\staticfieldex.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\staticfieldex\staticfieldex\obj\Debug\staticfieldex.pdb

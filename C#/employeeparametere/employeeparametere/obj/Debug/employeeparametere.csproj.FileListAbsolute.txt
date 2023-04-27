@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\obj\Debug\employeeparametere.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\obj\Debug\employeeparametere.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\obj\Debug\employeeparametere.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\bin\Debug\employeeparametere.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\bin\Debug\employeeparametere.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\bin\Debug\employeeparametere.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\obj\Debug\employeeparametere.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeeparametere\employeeparametere\obj\Debug\employeeparametere.pdb

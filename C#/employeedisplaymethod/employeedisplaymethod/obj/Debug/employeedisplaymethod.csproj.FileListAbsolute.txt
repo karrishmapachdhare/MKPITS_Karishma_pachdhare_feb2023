@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\bin\Debug\employeedisplaymethod.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\bin\Debug\employeedisplaymethod.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\bin\Debug\employeedisplaymethod.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\obj\Debug\employeedisplaymethod.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\obj\Debug\employeedisplaymethod.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\obj\Debug\employeedisplaymethod.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\obj\Debug\employeedisplaymethod.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\employeedisplaymethod\employeedisplaymethod\obj\Debug\employeedisplaymethod.pdb

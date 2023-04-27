@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\obj\Debug\3elementsinteger.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\obj\Debug\3elementsinteger.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\obj\Debug\3elementsinteger.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\bin\Debug\3elementsinteger.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\bin\Debug\3elementsinteger.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\bin\Debug\3elementsinteger.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\obj\Debug\3elementsinteger.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\3elementsinteger\3elementsinteger\obj\Debug\3elementsinteger.pdb

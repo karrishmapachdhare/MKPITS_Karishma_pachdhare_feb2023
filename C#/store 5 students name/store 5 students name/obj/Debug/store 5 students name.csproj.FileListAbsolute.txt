@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\bin\Debug\store 5 students name.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\bin\Debug\store 5 students name.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\bin\Debug\store 5 students name.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\obj\Debug\store 5 students name.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\obj\Debug\store 5 students name.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\obj\Debug\store 5 students name.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\obj\Debug\store 5 students name.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store 5 students name\store 5 students name\obj\Debug\store 5 students name.pdb

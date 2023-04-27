@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\bin\Debug\exmple of out prg.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\bin\Debug\exmple of out prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\bin\Debug\exmple of out prg.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\obj\Debug\exmple of out prg.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\obj\Debug\exmple of out prg.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\obj\Debug\exmple of out prg.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\obj\Debug\exmple of out prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\exmple of out prg\exmple of out prg\obj\Debug\exmple of out prg.pdb

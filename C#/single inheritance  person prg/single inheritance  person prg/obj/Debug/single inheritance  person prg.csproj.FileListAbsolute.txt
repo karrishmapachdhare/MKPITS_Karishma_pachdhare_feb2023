@@ -1,8 +1,0 @@
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\bin\Debug\single inheritance  person prg.exe.config
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\bin\Debug\single inheritance  person prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\bin\Debug\single inheritance  person prg.pdb
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\obj\Debug\single inheritance  person prg.csproj.AssemblyReference.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\obj\Debug\single inheritance  person prg.csproj.SuggestedBindingRedirects.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\obj\Debug\single inheritance  person prg.csproj.CoreCompileInputs.cache
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\obj\Debug\single inheritance  person prg.exe
-C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single inheritance  person prg\single inheritance  person prg\obj\Debug\single inheritance  person prg.pdb
