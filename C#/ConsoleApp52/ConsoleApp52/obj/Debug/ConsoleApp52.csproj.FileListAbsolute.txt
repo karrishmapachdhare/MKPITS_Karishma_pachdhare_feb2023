@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\bin\Debug\ConsoleApp52.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\bin\Debug\ConsoleApp52.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\bin\Debug\ConsoleApp52.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\obj\Debug\ConsoleApp52.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\obj\Debug\ConsoleApp52.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\obj\Debug\ConsoleApp52.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\obj\Debug\ConsoleApp52.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp52\ConsoleApp52\obj\Debug\ConsoleApp52.pdb

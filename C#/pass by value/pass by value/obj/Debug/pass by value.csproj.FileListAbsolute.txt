@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\bin\Debug\pass by value.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\bin\Debug\pass by value.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\bin\Debug\pass by value.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\obj\Debug\pass by value.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\obj\Debug\pass by value.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\obj\Debug\pass by value.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\obj\Debug\pass by value.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\pass by value\pass by value\obj\Debug\pass by value.pdb

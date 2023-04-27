@@ -1,0 +1,3 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\exhandling\exhandling\obj\Debug\exhandling.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\exhandling\exhandling\obj\Debug\exhandling.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\exhandling\exhandling\obj\Debug\exhandling.csproj.CoreCompileInputs.cache

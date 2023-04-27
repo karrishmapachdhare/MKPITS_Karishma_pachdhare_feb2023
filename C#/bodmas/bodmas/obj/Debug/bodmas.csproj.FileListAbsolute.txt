@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\bin\Debug\bodmas.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\bin\Debug\bodmas.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\bin\Debug\bodmas.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\obj\Debug\bodmas.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\obj\Debug\bodmas.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\obj\Debug\bodmas.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\obj\Debug\bodmas.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\bodmas\bodmas\obj\Debug\bodmas.pdb

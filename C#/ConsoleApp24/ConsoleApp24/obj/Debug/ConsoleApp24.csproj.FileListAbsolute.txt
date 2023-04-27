@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\obj\Debug\ConsoleApp24.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\obj\Debug\ConsoleApp24.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\obj\Debug\ConsoleApp24.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\bin\Debug\ConsoleApp24.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\bin\Debug\ConsoleApp24.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\bin\Debug\ConsoleApp24.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\obj\Debug\ConsoleApp24.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp24\ConsoleApp24\obj\Debug\ConsoleApp24.pdb

@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\bin\Debug\Employee base&Programmer derived class.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\bin\Debug\Employee base&Programmer derived class.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\bin\Debug\Employee base&Programmer derived class.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\obj\Debug\Employee base&Programmer derived class.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\obj\Debug\Employee base&Programmer derived class.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\obj\Debug\Employee base&Programmer derived class.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\obj\Debug\Employee base&Programmer derived class.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Employee base&Programmer derived class\Employee base&Programmer derived class\obj\Debug\Employee base&Programmer derived class.pdb

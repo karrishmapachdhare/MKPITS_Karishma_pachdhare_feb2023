@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\obj\Debug\ConsoleApp66.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\obj\Debug\ConsoleApp66.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\obj\Debug\ConsoleApp66.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\bin\Debug\ConsoleApp66.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\bin\Debug\ConsoleApp66.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\bin\Debug\ConsoleApp66.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\obj\Debug\ConsoleApp66.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp66\ConsoleApp66\obj\Debug\ConsoleApp66.pdb

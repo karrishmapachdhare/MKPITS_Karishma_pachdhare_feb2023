@@ -1,0 +1,10 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\bin\Debug\single diamension array.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\bin\Debug\single diamension array.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\bin\Debug\single diamension array.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\obj\Debug\single diamension array.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\obj\Debug\single diamension array.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\obj\Debug\single_diamension_array.Properties.Resources.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\obj\Debug\single diamension array.csproj.GenerateResource.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\obj\Debug\single diamension array.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\obj\Debug\single diamension array.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\single diamension array\single diamension array\obj\Debug\single diamension array.pdb

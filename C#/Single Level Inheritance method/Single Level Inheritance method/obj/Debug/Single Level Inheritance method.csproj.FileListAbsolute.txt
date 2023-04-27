@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\bin\Debug\Single Level Inheritance method.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\bin\Debug\Single Level Inheritance method.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\bin\Debug\Single Level Inheritance method.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\obj\Debug\Single Level Inheritance method.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\obj\Debug\Single Level Inheritance method.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\obj\Debug\Single Level Inheritance method.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\obj\Debug\Single Level Inheritance method.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\Single Level Inheritance method\Single Level Inheritance method\obj\Debug\Single Level Inheritance method.pdb

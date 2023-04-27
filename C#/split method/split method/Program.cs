@@ -10,6 +10,10 @@ namespace split_method
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 74bb643f33036117418d4088a13df2d7307975a4
         }
     }
 }

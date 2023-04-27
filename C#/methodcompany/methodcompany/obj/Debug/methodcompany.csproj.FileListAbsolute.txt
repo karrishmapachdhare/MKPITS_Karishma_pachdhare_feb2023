@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\bin\Debug\methodcompany.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\bin\Debug\methodcompany.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\bin\Debug\methodcompany.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\obj\Debug\methodcompany.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\obj\Debug\methodcompany.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\obj\Debug\methodcompany.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\obj\Debug\methodcompany.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\methodcompany\methodcompany\obj\Debug\methodcompany.pdb

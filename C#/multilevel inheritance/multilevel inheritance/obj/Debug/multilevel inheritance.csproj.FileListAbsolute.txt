@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\bin\Debug\multilevel inheritance.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\bin\Debug\multilevel inheritance.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\bin\Debug\multilevel inheritance.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\obj\Debug\multilevel inheritance.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\obj\Debug\multilevel inheritance.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\obj\Debug\multilevel inheritance.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\obj\Debug\multilevel inheritance.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\multilevel inheritance\multilevel inheritance\obj\Debug\multilevel inheritance.pdb

@@ -1,0 +1,11 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\bin\Debug\chaeck prime.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\bin\Debug\chaeck prime.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\bin\Debug\chaeck prime.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck prime.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck prime.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck_prime.Form1.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck_prime.Properties.Resources.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck prime.csproj.GenerateResource.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck prime.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck prime.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\chaeck prime\chaeck prime\obj\Debug\chaeck prime.pdb

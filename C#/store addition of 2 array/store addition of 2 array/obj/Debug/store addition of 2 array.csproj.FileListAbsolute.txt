@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\bin\Debug\store addition of 2 array.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\bin\Debug\store addition of 2 array.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\bin\Debug\store addition of 2 array.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\obj\Debug\store addition of 2 array.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\obj\Debug\store addition of 2 array.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\obj\Debug\store addition of 2 array.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\obj\Debug\store addition of 2 array.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\store addition of 2 array\store addition of 2 array\obj\Debug\store addition of 2 array.pdb

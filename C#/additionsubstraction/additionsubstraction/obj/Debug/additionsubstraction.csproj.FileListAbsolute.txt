@@ -1,0 +1,11 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.Form1.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.Properties.Resources.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.csproj.GenerateResource.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\bin\Debug\additionsubstraction.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\bin\Debug\additionsubstraction.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\bin\Debug\additionsubstraction.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\additionsubstraction\additionsubstraction\obj\Debug\additionsubstraction.pdb
