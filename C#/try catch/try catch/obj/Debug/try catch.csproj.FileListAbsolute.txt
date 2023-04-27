@@ -1,0 +1,3 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\try catch\try catch\obj\Debug\try catch.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\try catch\try catch\obj\Debug\try catch.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\try catch\try catch\obj\Debug\try catch.csproj.CoreCompileInputs.cache

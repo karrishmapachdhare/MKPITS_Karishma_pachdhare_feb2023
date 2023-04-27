@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\bin\Debug\replace method ex2.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\bin\Debug\replace method ex2.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\bin\Debug\replace method ex2.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\obj\Debug\replace method ex2.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\obj\Debug\replace method ex2.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\obj\Debug\replace method ex2.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\obj\Debug\replace method ex2.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\replace method ex2\replace method ex2\obj\Debug\replace method ex2.pdb

@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\bin\Debug\another inheritance employee prg.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\bin\Debug\another inheritance employee prg.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\bin\Debug\another inheritance employee prg.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\obj\Debug\another inheritance employee prg.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\obj\Debug\another inheritance employee prg.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\obj\Debug\another inheritance employee prg.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\obj\Debug\another inheritance employee prg.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\another inheritance employee prg\another inheritance employee prg\obj\Debug\another inheritance employee prg.pdb

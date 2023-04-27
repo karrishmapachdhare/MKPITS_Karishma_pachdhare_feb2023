@@ -1,0 +1,11 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\bin\Debug\accountbalance.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\bin\Debug\accountbalance.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\bin\Debug\accountbalance.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.Form1.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.Properties.Resources.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.csproj.GenerateResource.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\accountbalance\accountbalance\obj\Debug\accountbalance.pdb

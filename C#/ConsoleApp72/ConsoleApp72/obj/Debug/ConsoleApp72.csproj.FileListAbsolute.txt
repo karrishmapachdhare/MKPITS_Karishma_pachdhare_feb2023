@@ -1,0 +1,3 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp72\ConsoleApp72\obj\Debug\ConsoleApp72.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp72\ConsoleApp72\obj\Debug\ConsoleApp72.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\ConsoleApp72\ConsoleApp72\obj\Debug\ConsoleApp72.csproj.CoreCompileInputs.cache

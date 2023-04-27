@@ -1,0 +1,11 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\bin\Debug\employee ploymorphisum.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\bin\Debug\employee ploymorphisum.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\bin\Debug\employee ploymorphisum.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee ploymorphisum.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee ploymorphisum.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee_ploymorphisum.Form1.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee_ploymorphisum.Properties.Resources.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee ploymorphisum.csproj.GenerateResource.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee ploymorphisum.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee ploymorphisum.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\c sharp\employee ploymorphisum\employee ploymorphisum\obj\Debug\employee ploymorphisum.pdb
