@@ -16,7 +16,7 @@ namespace @throw
                 Console.WriteLine("Enter the age");
                 age = Convert.ToInt32(Console.ReadLine());
 
-                if (age <= 0 && age >= 100)
+                if (age <= 18 || age >= 50)
                 {
                     throw new Exception("Enter the proper age");
                 }
