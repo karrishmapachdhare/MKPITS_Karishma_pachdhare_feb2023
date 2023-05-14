@@ -61,3 +61,9 @@ end;
 exec prod11 'mic',3400
 exec prod11 'computer',6800
 
+---------------------stored proc with 2 parameters----------------
+create proc prod11(@pname as varchar(20),@p as decimal)
+as
+begin
+select*from product
+where productname=@pname and price>=
