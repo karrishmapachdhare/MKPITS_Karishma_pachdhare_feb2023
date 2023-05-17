@@ -1,0 +1,11 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\bin\Debug\ado.net1.exe.config
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\bin\Debug\ado.net1.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\bin\Debug\ado.net1.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.Form1.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.Properties.Resources.resources
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.csproj.GenerateResource.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.exe
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\C#\ado.net1\ado.net1\obj\Debug\ado.net1.pdb

@@ -1,0 +1,12 @@
+create table student3(rollno int primary key,firstname varchar(20),lastname varchar(20),course varchar(20),mobno int,city varchar(20))
+insert into student3 values(123,'fainil','pachdhare','dotnet',123456787,'khawasha')
+insert into student3 values(131,'jashika','pachdhare','java',984564234,'seoni')
+insert into student3 values(141,'khushboo','mohabe','c++',908753322,'nagpur')
+insert into student3 values(151,'rani','gupta','sql',90234567,'mumbai')
+insert into student3 values(161,'herish','pathekar','pachdhare',98765443,'pune')
+insert into student3 values(171,'chalish','roy','mysql',87543333,'bhopal')
+insert into student3 values(134,'rahul','rahate','c#',80964333,'patna')
+insert into student3 values(137,'sejal','mohabe','html',95775444,'jabalpur')
+insert into student3 values(143,'harshita','kuhikar','boostrap',78998865,'umred')
+insert into student3 values(153,'gunjan','kuhikar','css',964322345,'delhi')
+select*from student3

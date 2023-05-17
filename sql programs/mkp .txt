@@ -1,0 +1,12 @@
+create table staff(userid int primary key,username varchar(30),password varchar(30),city varchar(30),code int)
+insert into staff values(123,'karishma','kari','nagpur',440030)
+insert into staff values(124,'kaju','kajal','pune',440028)
+insert into staff values(125,'mona','monu','saoner',440026)
+insert into staff values(126,'tanu','tanushree','kuhi',440024)
+insert into staff values(127,'anjali','anju','pardi',440022)
+insert into staff values(128,'sona','son','mumbai',440018)
+insert into staff values(129,'shreya','shreya','nagpur',440016)
+insert into staff values(130,'payal','payu','nagpur',440014)
+insert into staff values(131,'akash','akki','hydrabad',440020)
+insert into staff values(132,'yogesh','yogi','goa',440012)
+select*from staff
