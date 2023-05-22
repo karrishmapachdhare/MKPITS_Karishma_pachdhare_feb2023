@@ -45,14 +45,14 @@ namespace product_store
         }
 
         //method to return product name for given product type name
-        public static DataSet Gettableproductname(string product_type_name)
+        public static DataSet GettableProductName(string Product_type_Name)
         {
             SqlConnection con = GetConnection();
             string query = "select p.Product_Name from Product p inner join ProductCategory t on p.ProductTypeId = t.Product_Category_ID where t.Product_Type_Name = @product_type_name";
-        DataSet ds = new DataSet();
+            DataSet ds = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(query, con);
-            da.SelectCommand.Parameters.AddWithValue("@product_type_name", product_type_name);
-            da.Fill(ds, "product");
+            da.SelectCommand.Parameters.AddWithValue("@product_type_name", Product_type_Name);
+            da.Fill(ds, "Products");
             return ds;
 
         }
@@ -74,11 +74,11 @@ namespace product_store
         public static DataSet GetProductPrice(string Product_Name)
         {
             SqlConnection con = GetConnection();
-            string query = "select productprice from product where Product_Name=@product_name";
+            string query = "select Price from Products where Product_Name=@product_name";
             DataSet ds2 = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(query, con);
             da.SelectCommand.Parameters.AddWithValue("@product_name", Product_Name);
-            da.Fill(ds2, "Product");
+            da.Fill(ds2, "Products");
             return ds2;
 
         }

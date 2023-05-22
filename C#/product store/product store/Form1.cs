@@ -8,19 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+
 namespace product_store
 {
     public partial class Form1 : Form
     {
         //creating an enum Nationality
-        enum Nationality { Indian,NRI}
+        enum Nationality { Indian, NRI }
         public Form1()
         {
             InitializeComponent();
+            //code to set date
             dateTimePicker1.Value = DateTime.Today;
             dateTimePicker1.MinDate = DateTime.Today;
         }
-
+        // code to accept only numbers
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -48,10 +50,6 @@ namespace product_store
             comboBox1.DataSource = ds.Tables[0];
             comboBox1.DisplayMember = "Product_type_Name";
         }
-        int cgst = 0;
-        int sgst = 0;
-        int igst = 0;
-        int tgst = 0;
 
 
         private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -61,33 +59,38 @@ namespace product_store
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            DataSet ds = productstore.Gettableproductname(comboBox1.Text);
+            DataSet ds = productstore.GettableProductName(comboBox1.Text);
             comboBox2.DataSource = ds.Tables[0];
             comboBox2.DisplayMember = "Product_Name";
 
             //filling the gst textboxes
             DataSet ds1 = productstore.GetGstDetails(comboBox1.Text);
-            foreach(DataRow dr in ds1.Tables[0].Rows)
+            foreach (DataRow dr in ds1.Tables[0].Rows)
             {
+                //textBox3.Text = dr["cgst"].ToString();
+                //textBox4.Text = dr["sgst"].ToString();
+                //textBox5.Text = dr["igst"].ToString();
                 cgst = Convert.ToInt32(dr["cgst"].ToString());
                 sgst = Convert.ToInt32(dr["sgst"].ToString());
-                igst = Convert.ToInt32(dr["igst"].ToString()) ;
+                igst = Convert.ToInt32(dr["igst"].ToString());
             }
+            //code for cgst sgst
+            //if (radioButton1.Checked)
 
             if (nationality == 0)
 
             {
                 tgst = cgst + sgst;
             }
-            else
+            else if (radioButton2.Checked)
             {
                 tgst = igst;
             }
-            textBox5.Text = cgst.ToString();
-            textBox6.Text = sgst.ToString();
-            textBox7.Text = tgst.ToString();
+            textBox3.Text = cgst.ToString();
+            textBox4.Text = sgst.ToString();
+            textBox5.Text = tgst.ToString();
         }
-
+        Nationality nationality;
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
@@ -95,15 +98,55 @@ namespace product_store
 
         private void textBox10_TextChanged(object sender, EventArgs e)
         {
+            if (textBox10.Text == "")
+            {
 
+            }
+            else
+            {
+                double totalamount = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox10.Text);
+                textBox11.Text = totalamount.ToString();
+                double cgstamount = Convert.ToDouble(textBox9.Text) * (Convert.ToDouble(textBox3.Text) / 100.0);
+                textBox6.Text = cgstamount.ToString();
+                double sgstamount = Convert.ToDouble(textBox9.Text) * (Convert.ToDouble(textBox4.Text) / 100.0);
+                textBox7.Text = sgstamount.ToString();
+                double igstamount = Convert.ToDouble(textBox9.Text) * (Convert.ToDouble(textBox5.Text) / 100.0);
+                textBox8.Text = igstamount.ToString();
+                double netamount = Convert.ToDouble(textBox11.Text) + Convert.ToDouble(textBox8.Text);
+                textBox12.Text = netamount.ToString();
+            }
         }
+        public void ClearAll()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox7.Clear();
+            textBox8.Clear();
+            textBox9.Clear();
+            textBox10.Clear();
+            textBox11.Clear();
+            textBox12.Clear();
+            ///comboBox1.Items.Clear();
+            // comboBox2.Items.Clear();
+
+            radioButton1.Enabled = false;
+            radioButton2.Enabled = false;
+        }
+
+
+
+
+
+
+
 
         private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -112,49 +155,57 @@ namespace product_store
             DataSet ds1 = productstore.GetProductPrice(comboBox2.Text);
             foreach (DataRow dr in ds1.Tables[0].Rows)
             {
-                textBox4.Text = dr["productprice"].ToString();
+                textBox9.Text = dr["Price"].ToString();
 
             }
         }
-        Nationality nationality;
+        int cgst = 0;
+        int sgst = 0;
+        int igst = 0;
+        int tgst = 0;
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             nationality = Nationality.Indian;
             // MessageBox.Show(nationality.ToString());
-            textBox5.Text = cgst.ToString();
-            textBox6.Text = sgst.ToString();
-
-            textBox7.Text = Convert.ToString(Convert.ToInt32(textBox5.Text) + Convert.ToInt32(textBox6.Text));
+            textBox3.Text = cgst.ToString();
+            textBox4.Text = sgst.ToString();
+            textBox5.Text = Convert.ToString(Convert.ToInt32(textBox3.Text) + Convert.ToInt32(textBox4.Text));
         }
+
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             nationality = Nationality.NRI;
             // MessageBox.Show(nationality.ToString());
-            textBox5.Text = cgst.ToString();
-            textBox6.Text = sgst.ToString();
-            textBox7.Text = igst.ToString();
+            textBox3.Text = cgst.ToString();
+            textBox4.Text = sgst.ToString();
+            textBox5.Text = igst.ToString();
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            if (textBox3.Text == "")
-            {
 
-            }
-            else
-            {
-                double totalamount = Convert.ToDouble(textBox4.Text) * Convert.ToDouble(textBox3.Text);
-                textBox8.Text = totalamount.ToString();
-                double cgstamount = Convert.ToDouble(textBox4.Text) * (Convert.ToDouble(textBox5.Text) / 100.0);
-                textBox10.Text = cgstamount.ToString();
-                double sgstamount = Convert.ToDouble(textBox4.Text) * (Convert.ToDouble(textBox6.Text) / 100.0);
-                textBox11.Text = sgstamount.ToString();
-                double igstamount = Convert.ToDouble(textBox4.Text) * (Convert.ToDouble(textBox7.Text) / 100.0);
-                textBox12.Text = igstamount.ToString();
-                double netamount = Convert.ToDouble(textBox8.Text) + Convert.ToDouble(textBox12.Text);
-                textBox9.Text = netamount.ToString();
-            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ClearAll();
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

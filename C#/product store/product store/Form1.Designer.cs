@@ -358,6 +358,7 @@
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(200, 27);
             this.textBox12.TabIndex = 20;
+            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
             // 
             // textBox11
             // 
@@ -428,6 +429,7 @@
             this.label13.Size = new System.Drawing.Size(107, 19);
             this.label13.TabIndex = 12;
             this.label13.Text = "Total Amount";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label12
             // 
@@ -455,6 +457,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -464,6 +467,7 @@
             this.button2.TabIndex = 15;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
