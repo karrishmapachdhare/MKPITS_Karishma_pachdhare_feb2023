@@ -80,7 +80,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(436, 35);
+            this.label1.Location = new System.Drawing.Point(531, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(161, 29);
             this.label1.TabIndex = 0;
@@ -225,6 +225,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Indian";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_1);
             // 
             // textBox1
             // 
@@ -288,6 +289,7 @@
             // 
             this.textBox8.Location = new System.Drawing.Point(370, 135);
             this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
             this.textBox8.Size = new System.Drawing.Size(100, 27);
             this.textBox8.TabIndex = 12;
             // 
@@ -295,6 +297,7 @@
             // 
             this.textBox7.Location = new System.Drawing.Point(370, 83);
             this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
             this.textBox7.Size = new System.Drawing.Size(100, 27);
             this.textBox7.TabIndex = 11;
             // 
@@ -302,6 +305,7 @@
             // 
             this.textBox6.Location = new System.Drawing.Point(370, 34);
             this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(100, 27);
             this.textBox6.TabIndex = 10;
             // 
@@ -309,6 +313,7 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(141, 132);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(100, 27);
             this.textBox5.TabIndex = 9;
             // 
@@ -316,6 +321,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(141, 87);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(100, 27);
             this.textBox4.TabIndex = 8;
             // 
@@ -323,6 +329,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(141, 42);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 27);
             this.textBox3.TabIndex = 7;
             // 
@@ -354,16 +361,17 @@
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(219, 289);
+            this.textBox12.Location = new System.Drawing.Point(219, 335);
             this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(200, 27);
             this.textBox12.TabIndex = 20;
-            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(219, 338);
+            this.textBox11.Location = new System.Drawing.Point(219, 284);
             this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
             this.textBox11.Size = new System.Drawing.Size(200, 27);
             this.textBox11.TabIndex = 19;
             // 
@@ -380,6 +388,7 @@
             // 
             this.textBox9.Location = new System.Drawing.Point(219, 183);
             this.textBox9.Name = "textBox9";
+            this.textBox9.ReadOnly = true;
             this.textBox9.Size = new System.Drawing.Size(200, 27);
             this.textBox9.TabIndex = 17;
             this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
@@ -429,7 +438,6 @@
             this.label13.Size = new System.Drawing.Size(107, 19);
             this.label13.TabIndex = 12;
             this.label13.Text = "Total Amount";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label12
             // 
@@ -467,7 +475,7 @@
             this.button2.TabIndex = 15;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // Form1
             // 

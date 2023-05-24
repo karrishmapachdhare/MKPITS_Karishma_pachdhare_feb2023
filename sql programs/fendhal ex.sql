@@ -42,3 +42,20 @@ select*from ProductGstDetails
 select*from  ProductCategory
 select*from Products
 select*from InvoiceDetails
+
+create table InvoiceDetails1(Invoice_Detail_Id int primary key identity,Customer_Name varchar(500),
+Customer_Contact varchar(15),Product_Category_Id int constraint l1
+foreign key(Product_Category_Id)references ProductCategory(Product_Category_Id),
+Product_Id int constraint l2 foreign key(Product_Id)references
+Products(Product_Id),Residential_Type_Id int,Invoice_Date datetime,Quantity decimal,
+Price decimal,CGST decimal,SGST decimal,IGST decimal,
+CGST_Value decimal,SGST_Value decimal,IGST_Value decimal,Total_Amount decimal)
+
+insert into InvoiceDetails1 values (1,'Rahul','9185783214',1002,210,3001,'2023-04-04 00:00:00:000',1,50000,6,6,12,3000,3000,6000,56000)
+
+insert into InvoiceDetails1 values(12,'Nikita','7841824986',1001,211,3002,'2023-04-08 00:00:00:000',1,65000,9,9,18,11700,5850,5850,76700)
+
+insert into InvoiceDetails1 values(13,'Gopal','1234567890',1001,215,3003,'2023-04-12 00:00:00:000',1,60000,9,9,18,5400,5400,10800,70800)
+
+insert into InvoiceDetails1 values(14,'Anand','7387872895',1002,210,3004,'2023-04-14 00:00:00:000',1,40000,6,6,6,2400,2400,2400,42400)
+select*from InvoiceDetails1
