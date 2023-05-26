@@ -15,7 +15,7 @@ namespace product_store
     {
         //creating an enum Nationality
         enum Nationality { Indian, NRI }
-      
+
         Nationality nationality; // datatype is enum so it can store only indian or nri value only
         int cgst = 0;
         int sgst = 0;
@@ -75,7 +75,7 @@ namespace product_store
             DataSet ds1 = productstore.GetGstDetails(comboBox1.Text);
             foreach (DataRow dr in ds1.Tables[0].Rows)
             {
-               
+
                 cgst = Convert.ToInt32(dr["cgst"].ToString());
                 sgst = Convert.ToInt32(dr["sgst"].ToString());
                 igst = Convert.ToInt32(dr["igst"].ToString());
@@ -90,14 +90,14 @@ namespace product_store
                 tgst = cgst + sgst;
             }
             else// nationality is nri  
-            { 
+            {
                 tgst = igst; // totalgst is only igst not sum 
             }
             textBox3.Text = cgst.ToString();
             textBox4.Text = sgst.ToString();
             textBox5.Text = tgst.ToString();
         }
-       
+
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
@@ -136,7 +136,7 @@ namespace product_store
                 netamount = Convert.ToDouble(textBox8.Text) + Convert.ToDouble(textBox11.Text);
             }
             textBox12.Text = netamount.ToString();
-           
+
         }
 
         public void ClearAll()
@@ -155,59 +155,55 @@ namespace product_store
             textBox12.Clear();
 
         }
-       
+    
 
 
 
 
-        private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+
+    private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+    {
+
+    }
+
+    private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        //filling the product price
+        DataSet ds1 = productstore.GetProductPrice(comboBox2.Text);
+        foreach (DataRow dr in ds1.Tables[0].Rows)
         {
+            textBox9.Text = dr["Price"].ToString();
 
         }
+    }
 
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            //filling the product price
-            DataSet ds1 = productstore.GetProductPrice(comboBox2.Text);
-            foreach (DataRow dr in ds1.Tables[0].Rows)
-            {
-                textBox9.Text = dr["Price"].ToString();
+    private void radioButton1_CheckedChanged(object sender, EventArgs e)
+    {
 
-            }
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            nationality = Nationality.Indian;
-            // MessageBox.Show(nationality.ToString());
-            textBox3.Text = cgst.ToString();
-            textBox4.Text = sgst.ToString();
-            textBox5.Text = Convert.ToString(Convert.ToInt32(textBox3.Text) + Convert.ToInt32(textBox4.Text));
-            calculate_total();
-        }
+    }
 
 
-            private void radioButton2_CheckedChanged(object sender, EventArgs e)
-            {
-            nationality = Nationality.NRI;
-            // MessageBox.Show(nationality.ToString());
-            textBox3.Text = cgst.ToString();
-            textBox4.Text = sgst.ToString();
-            textBox5.Text = igst.ToString();
-            calculate_total();
-            }
+    private void radioButton2_CheckedChanged(object sender, EventArgs e)
+    {
+        nationality = Nationality.NRI;
+        // MessageBox.Show(nationality.ToString());
+        textBox3.Text = cgst.ToString();
+        textBox4.Text = sgst.ToString();
+        textBox5.Text = igst.ToString();
+        calculate_total();
+    }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
+    private void textBox3_TextChanged(object sender, EventArgs e)
+    {
 
-            
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            checkuserdetails();
+    }
 
-        }
+    private void button1_Click(object sender, EventArgs e)
+    {
+        checkuserdetails();
+
+    }
         public void checkuserdetails()
         {
             if (textBox1.Text == "" || textBox2.Text == "")
@@ -220,55 +216,55 @@ namespace product_store
             }
             else
             {
-                string result = productstore.saveTableInvoiceDetails1(textBox1.Text, textBox2.Text, Convert.ToInt32(comboBox1.SelectedValue), Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(nationality), dateTimePicker1.Value, Convert.ToDecimal(textBox10.Text), Convert.ToDecimal(textBox9.Text),Convert.ToDecimal(textBox3.Text), Convert.ToDecimal(textBox4.Text), Convert.ToDecimal(textBox5.Text), Convert.ToDecimal(textBox6.Text), Convert.ToDecimal(textBox7.Text), Convert.ToDecimal(textBox8.Text),Convert.ToDecimal(textBox11.Text));
+                string result = productstore.saveTableInvoiceDetails1(textBox1.Text, textBox2.Text, Convert.ToInt32(comboBox1.SelectedValue), Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(nationality), dateTimePicker1.Value, Convert.ToDecimal(textBox10.Text), Convert.ToDecimal(textBox9.Text), Convert.ToDecimal(textBox3.Text), Convert.ToDecimal(textBox4.Text), Convert.ToDecimal(textBox5.Text), Convert.ToDecimal(textBox6.Text), Convert.ToDecimal(textBox7.Text), Convert.ToDecimal(textBox8.Text), Convert.ToDecimal(textBox11.Text));
 
                 MessageBox.Show(result);
 
-               
+
             }
-            
-        }
-        private void textBox8_TextChanged(object sender, EventArgs e)
-
-
-
-
-        {
-        }
-
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void textBox12_TextChanged(object sender, EventArgs e)
-        {
 
         }
+    private void textBox8_TextChanged(object sender, EventArgs e)
 
-        private void label13_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
 
-        }
+    {
+    }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            ClearAll();
-        }
 
-        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
-        {
-            nationality = Nationality.Indian;
-            // MessageBox.Show(nationality.ToString());
-            textBox3.Text = cgst.ToString();
-            textBox4.Text = sgst.ToString();
-            textBox5.Text = Convert.ToString(Convert.ToInt32(textBox3.Text) + Convert.ToInt32(textBox4.Text));
-            calculate_total();
-        }
+    private void button2_Click(object sender, EventArgs e)
+    {
+    }
+
+    private void textBox12_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    private void label13_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void textBox6_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    private void button2_Click_1(object sender, EventArgs e)
+    {
+        ClearAll();
+    }
+
+    private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+    {
+        nationality = Nationality.Indian;
+        // MessageBox.Show(nationality.ToString());
+        textBox3.Text = cgst.ToString();
+        textBox4.Text = sgst.ToString();
+        textBox5.Text = Convert.ToString(Convert.ToInt32(textBox3.Text) + Convert.ToInt32(textBox4.Text));
+        calculate_total();
+    }
     }
 }

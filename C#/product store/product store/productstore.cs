@@ -14,7 +14,7 @@ namespace product_store
     public static class productstore
     {
         private static string connectionString = "server=OREO\\SQLEXPRESS;integrated security=true;database=fendhl;";
-        //method to cre.Zate connection
+        //method to create connection
         public static SqlConnection GetConnection()
         {
             SqlConnection con = new SqlConnection(connectionString);
@@ -48,7 +48,7 @@ namespace product_store
         public static DataSet GettableProductName(string Product_type_Name)
         {
             SqlConnection con = GetConnection();
-            string query = "select p.Product_id,  p.Product_Name from Products p inner join ProductCategory t on p.ProductTypeId = t.Product_Category_Id   where t.Product_type_Name = @product_type_name";
+            string query = "select p.Product_id, p.Product_Name from Products p inner join ProductCategory t on p.ProductTypeId = t.Product_Category_Id   where t.Product_type_Name = @product_type_name";
             DataSet ds = new DataSet();
             SqlDataAdapter da = new SqlDataAdapter(query, con);
             da.SelectCommand.Parameters.AddWithValue("@product_type_name", Product_type_Name);
@@ -129,6 +129,5 @@ namespace product_store
 
 
     
-
     
 
