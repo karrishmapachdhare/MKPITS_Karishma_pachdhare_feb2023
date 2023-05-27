@@ -48,7 +48,7 @@ insert into TableCity values(1023,'Kolanna',108)
 
 
 
-create table TableCourseRegDetails(CourseRegId int primary key,CategoryInd int,FullName varchar(1500)
+create table TableCourseRegDetails(CourseRegId int primary key identity,CategoryInd int,FullName varchar(1500)
 ,GenderInd int)
 
 insert into TableCourseRegDetails values(4,1,'Mk',1)
@@ -67,7 +67,7 @@ insert into TableCourseRegDetails values(16,2,'Ananya',2)
 
 
 
-create table TableRegAddress(RegAddressId int,CourseRegId int constraint c3 foreign key(CourseRegId)references TableCourseRegdetails(CourseRegId),NationId int constraint c4 foreign key
+create table TableRegAddress(RegAddressId int primary key identity ,CourseRegId int constraint c3 foreign key(CourseRegId)references TableCourseRegdetails(CourseRegId),NationId int constraint c4 foreign key
 (NationId)references TableNation(NationID),
 StateID int constraint c4 foreign key(StateId)references TableState(StateId),CityId int constraint c5 foreign key(CityId)references TableCity(CityId))
 
