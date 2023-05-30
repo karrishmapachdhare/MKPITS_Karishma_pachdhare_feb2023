@@ -67,9 +67,9 @@ insert into TableCourseRegDetails values(16,2,'Ananya',2)
 
 
 
-create table TableRegAddress(RegAddressId int primary key identity ,CourseRegId int constraint c3 foreign key(CourseRegId)references TableCourseRegdetails(CourseRegId),NationId int constraint c4 foreign key
+create table TableRegAddress(RegAddressId int primary key identity ,CourseRegId int, constraint c15 foreign key(CourseRegId)references TableCourseRegdetails(CourseRegId),NationId int, constraint c4 foreign key
 (NationId)references TableNation(NationID),
-StateID int constraint c4 foreign key(StateId)references TableState(StateId),CityId int constraint c5 foreign key(CityId)references TableCity(CityId))
+StateID int, constraint c16 foreign key(StateId)references TableState(StateId),CityId int constraint c17 foreign key(CityId)references TableCity(CityId))
 
 insert into TableRegAddress values(1,1,4,102,1003)
 insert into TableRegAddress values(2,1,4,104,1009)
