@@ -13,5 +13,23 @@ namespace customer_details.Properties
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            int rate, quantity, totalamount;
+            rate = Convert.ToInt32(TextBox3.Text);
+            quantity = Convert.ToInt32(TextBox4.Text);
+            if (RadioButton1.Checked)
+            {
+                totalamount = rate * quantity;
+                Label1.Text = totalamount.ToString();
+            }
+            else
+            {
+                totalamount=rate * quantity;
+                int emi = totalamount / 3;
+                Label1.Text = emi.ToString();
+            }
+            }
+        }
     }
-}
