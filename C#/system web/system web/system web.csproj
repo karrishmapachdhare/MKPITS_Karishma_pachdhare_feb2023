@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Properties\download.jpg" />
     <Content Include="Properties\HtmlPage1.html" />
+    <Content Include="Properties\HtmlPage2.html" />
     <Content Include="Properties\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

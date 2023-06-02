@@ -63,7 +63,6 @@
                         <asp:ListItem>Dotnet</asp:ListItem>
                         <asp:ListItem>Java</asp:ListItem>
                         <asp:ListItem>Python</asp:ListItem>
-                        <asp:ListItem></asp:ListItem>
                     </asp:CheckBoxList>
                     <br />
                     <br />
