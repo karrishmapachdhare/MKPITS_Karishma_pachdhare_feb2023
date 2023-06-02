@@ -31,7 +31,9 @@
             </tr>
             <tr>
                 <td class="auto-style2">Type</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>
@@ -39,7 +41,9 @@
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:Button ID="Button1" runat="server" Text="OK" />
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">Result :-</td>

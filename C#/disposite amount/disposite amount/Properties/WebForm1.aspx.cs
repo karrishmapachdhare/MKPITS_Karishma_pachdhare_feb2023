@@ -13,5 +13,27 @@ namespace disposite_amount.Properties
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            int amt = 1000;
+            int amount =Convert.ToInt32(TextBox2.Text);
+            string type=Convert.ToString(TextBox3.Text);
+            int totalamount = 0;
+            if (type == "deposit")
+            {
+                totalamount = amount + 1000;
+                Label1.Text = totalamount.ToString();
+            }
+            else
+            {
+                totalamount = 1000 - amount;
+                Label1.Text = totalamount.ToString();
+            }
+          
+        }
+
     }
+
 }
