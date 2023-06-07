@@ -8,9 +8,6 @@
         }
         .auto-style3 {
             width: 215px;
-        }
-        .auto-style4 {
-            width: 215px;
             text-align: left;
         }
     </style>
@@ -19,13 +16,13 @@
      <h1 align="center">Sign Up Form<br />
          <table class="auto-style2">
              <tr>
-                 <td class="auto-style4">Name</td>
+                 <td class="auto-style3">Name</td>
                  <td class="text-left">
                      <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                  </td>
              </tr>
              <tr>
-                 <td class="auto-style4">Password</td>
+                 <td class="auto-style3">Password</td>
                  <td class="text-left">
                      <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
                  </td>
