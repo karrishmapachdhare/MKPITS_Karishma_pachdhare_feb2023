@@ -170,5 +170,10 @@ namespace Project_A
             if(radioButton4.Checked)
                 gender = Gender.Female;
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
