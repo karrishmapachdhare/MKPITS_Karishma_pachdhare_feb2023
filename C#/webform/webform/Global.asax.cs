@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,14 @@ namespace webform
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Application["companyname"] = "mkpits services";
             Application["counter"] = 0;
+
         }
+        void Session_Start(object sender, EventArgs e)
+        {
+            Session["usercount"] = 0;
+            Session["username"] = "";
+            Session["email"] = "";
+        }
+        
     }
 }
