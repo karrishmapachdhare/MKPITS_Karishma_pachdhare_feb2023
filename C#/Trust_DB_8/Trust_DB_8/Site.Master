@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Trust_DB_8.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+        }
+        .auto-style2 {
+            margin-top: 0px;
+        }
+        .auto-style3 {
+            text-align: center;
+            font-size: large;
+        }
+        .auto-style4 {
+            width: 304px;
+        }
+    </style>
+
+</head>
+<body style="height: 409px">
+    <form id="form1" runat="server">
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+        <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+        <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style1"><strong>&nbsp;Store Management System</strong></span></p>
+        <asp:Panel ID="Panel1" runat="server" CssClass="auto-style2" Height="252px" Width="597px">
+            <div class="auto-style3">
+                <strong>Item Entry<br /> </strong>
+                <table class="w-100">
+                    <tr>
+                        <td class="auto-style4">Item Name</td>
+                        <td>
+                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4">Category</td>
+                        <td>
+                            <asp:DropDownList ID="DropDownList1" runat="server">
+                            </asp:DropDownList>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4">Rate</td>
+                        <td>
+                            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4">Balance Quantity</td>
+                        <td>
+                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+        </asp:Panel>
+        <p>
+            &nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" Text="Insert" />
+            &nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button2" runat="server" Text="Update" />
+&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button3" runat="server" Text="Delete" />
+&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button4" runat="server" Text="Search" />
+        </p>
+       
+        
+       
+    </form>
+</body>
+</html>
