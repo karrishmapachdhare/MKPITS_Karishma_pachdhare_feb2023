@@ -32,19 +32,44 @@
                 </tr>
                 <tr>
                     <td class="text-center" colspan="2" style="height: 27px">
-                        <asp:Button ID="Button1" runat="server" Text="Insert" />
+                        <asp:Button ID="Button1" runat="server" Text="Insert" OnClick="Button1_Click" />
                         <asp:Button ID="Button2" runat="server" Text="Update" OnClick="Button2_Click" />
                         <asp:Button ID="Button3" runat="server" Text="Delete" OnClick="Button3_Click" />
                         <asp:Button ID="Button4" runat="server" Text="Search" OnClick="Button4_Click" />
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style4">
+                        <br />
+                    </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <asp:GridView ID="GridView1" runat="server">
+                        </asp:GridView>
+                        <br />
+                        <br />
+                        <br />
+                    </td>
+                    <td>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </td>
                 </tr>
             </table>
         </div>

@@ -26,7 +26,7 @@
                         &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4" style="height: 24px">-</td>
+                    <td class="auto-style4" style="height: 24px">&nbsp;</td>
                     <td style="height: 24px">
                     </td>
                 </tr>
@@ -49,6 +49,15 @@
             </table>
         </div>
     </asp:Panel>
+    <p>
+    </p>
+    <p>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </p>
+    <p>
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
+    </p>
     <p>
     </p>
     <p>

@@ -29,16 +29,16 @@
                         &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4" style="height: 24px">-</td>
+                    <td class="auto-style4" style="height: 24px">&nbsp;</td>
                     <td style="height: 24px">
                     </td>
                 </tr>
                 <tr>
                     <td class="text-center" colspan="2" style="height: 27px">
                         <asp:Button ID="Button1" runat="server" Text="Insert" OnClick="Button1_Click" />
-                        <asp:Button ID="Button2" runat="server" Text="Update" />
-                        <asp:Button ID="Button3" runat="server" Text="Delete" />
-                        <asp:Button ID="Button4" runat="server" Text="Search" />
+                        <asp:Button ID="Button2" runat="server" Text="Update" OnClick="Button2_Click" />
+                        <asp:Button ID="Button3" runat="server" Text="Delete" OnClick="Button3_Click" />
+                        <asp:Button ID="Button4" runat="server" Text="Search" OnClick="Button4_Click" />
                     </td>
                 </tr>
                 <tr>
@@ -52,6 +52,15 @@
             </table>
         </div>
     </asp:Panel>
+    <p>
+    </p>
+    <p>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </p>
+    <p>
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
+    </p>
     <p>
     </p>
     <p>
