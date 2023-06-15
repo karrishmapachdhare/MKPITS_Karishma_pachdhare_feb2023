@@ -1,0 +1,6 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\DLL\stroelibrary\stroelibrary\bin\Debug\stroelibrary.dll
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\DLL\stroelibrary\stroelibrary\bin\Debug\stroelibrary.pdb
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\DLL\stroelibrary\stroelibrary\obj\Debug\stroelibrary.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\DLL\stroelibrary\stroelibrary\obj\Debug\stroelibrary.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\DLL\stroelibrary\stroelibrary\obj\Debug\stroelibrary.dll
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\DLL\stroelibrary\stroelibrary\obj\Debug\stroelibrary.pdb
