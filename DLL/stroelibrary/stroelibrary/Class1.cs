@@ -116,7 +116,8 @@ namespace stroelibrary
             {
                 string res = null;
 
-                //checking whether vendorid exists or not
+                //checking whether.
+                //vendorid exists or not
                 query = "select count(*) from vendor_mast where vendor_id=@vendor_id";
                 cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@vendor_id", vendor_id);

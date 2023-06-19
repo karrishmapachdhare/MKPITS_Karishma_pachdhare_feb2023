@@ -32,10 +32,23 @@
                         <br />
                         <br />
                         <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         Department Name</td>
                     <td>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <asp:DropDownList ID="DropDownList2" runat="server" DataSourceID="SqlDataSource2" DataTextField="Department_id" DataValueField="Department_id">
                         </asp:DropDownList>
+                        <br />
+                        <br />
                         <br />
                         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:TrustDBConnectionString2 %>" ProviderName="<%$ ConnectionStrings:TrustDBConnectionString2.ProviderName %>" SelectCommand="SELECT [Department_id], [Department_name] FROM [Department_mast]"></asp:SqlDataSource>
                         <br />

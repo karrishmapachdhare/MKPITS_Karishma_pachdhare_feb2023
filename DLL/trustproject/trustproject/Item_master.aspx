@@ -14,15 +14,20 @@
     </p>
     <p class="text-start" style="font-size: medium">
         Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem>Electronics</asp:ListItem>
+            <asp:ListItem>Consumable</asp:ListItem>
+            <asp:ListItem>Funiture</asp:ListItem>
+            <asp:ListItem>Stationary</asp:ListItem>
+        </asp:DropDownList>
     </p>
     <p class="text-start" style="font-size: medium">
         Rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
     </p>
     <p class="text-start" style="font-size: medium">
         Balance Quantity&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
     </p>
     <p class="text-start" style="font-size: medium">
         &nbsp;
