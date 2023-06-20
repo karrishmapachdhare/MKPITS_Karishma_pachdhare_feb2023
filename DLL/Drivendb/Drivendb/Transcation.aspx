@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Transcation.aspx.cs" Inherits="Drivendb.Transcation" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <p class="text-center" style="font-size: large">
+    <p class="text-start" style="font-size: large">
         <strong>Transcation Form</strong></p>
+    <p class="text-start" style="font-size: large">
+        Transid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+    </p>
     <p class="text-start" style="font-size: large">
         <strong><span style="font-size: medium">Itemid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
         <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource4" DataTextField="Itemdesc" DataValueField="ItemId">
@@ -40,6 +44,7 @@
     <p class="text-start" style="font-size: large">
         &nbsp;</p>
     <p class="text-start" style="font-size: large">
+        <div class="text-center">
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Transid" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
@@ -60,6 +65,7 @@
             <SortedDescendingCellStyle BackColor="#FCF6C0" />
             <SortedDescendingHeaderStyle BackColor="#820000" />
         </asp:GridView>
+        </div>
         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:DrivenitdbConnectionString %>" DeleteCommand="DELETE FROM [Transactions] WHERE [Transid] = @Transid" InsertCommand="INSERT INTO [Transactions] ([ItemId], [TransType], [TransQty], [TranseDate]) VALUES (@ItemId, @TransType, @TransQty, @TranseDate)" SelectCommand="SELECT [Transid], [ItemId], [TransType], [TransQty], [TranseDate] FROM [Transactions]" UpdateCommand="UPDATE [Transactions] SET [ItemId] = @ItemId, [TransType] = @TransType, [TransQty] = @TransQty, [TranseDate] = @TranseDate WHERE [Transid] = @Transid">
             <DeleteParameters>
                 <asp:Parameter Name="Transid" Type="Int32" />

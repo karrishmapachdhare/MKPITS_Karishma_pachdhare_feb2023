@@ -76,9 +76,17 @@ namespace Drivendb
             }
 
         }
+        static int transid = 0;
+        static int oldtransqty = 0;
 
         protected void Button2_Click(object sender, EventArgs e)
         {
+            int updatedqty = 0;
+
+            Response.Write("transaction id" + transid.ToString());
+            updatedqty = Convert.ToInt32(TextBox2.Text) - oldtransqty;
+
+            Response.Write("updated qty" + updatedqty.ToString());
             try
             {
                 query = "update Transactions set TransType=@transtype,TransQty=@transqty,TranseDate=@transdate where Itemid = @itemid";
@@ -98,6 +106,7 @@ namespace Drivendb
                 command.Parameters.AddWithValue("@transqty", Convert.ToInt32(TextBox2.Text));
                 command.Parameters.AddWithValue("@transdate", TextBox3.Text);
                 command.Parameters.AddWithValue("@itemid", DropDownList1.SelectedValue);
+                command.Parameters.AddWithValue("@transid", transid);
                 con.Open();
                 command.ExecuteNonQuery();
 
@@ -106,23 +115,38 @@ namespace Drivendb
                 command = new SqlCommand(query, con);
                 command.Parameters.AddWithValue("@itemid", DropDownList1.SelectedValue);
                 int bq = Convert.ToInt32(command.ExecuteScalar());
-                if (transt == "I")
-                {
-                    bq = bq - Convert.ToInt32(TextBox2.Text);
-                }
-                else if (transt == "R")
-                {
-                    bq = bq + Convert.ToInt32(TextBox2.Text);
-                }
+                Response.Write("bq " + bq.ToString());
+                Response.Write("updateqty " + updatedqty.ToString());
+                if (RadioButton1.Checked)
+                    bq = bq - updatedqty;
+                if (RadioButton2.Checked)
+                    bq = bq + updatedqty;
 
-                //updating bal qty on item master table
-                query = "update ItemMaster set BalQty=@balqty where Itemid=@itemid";
-                command = new SqlCommand(query, con);
-                command.Parameters.AddWithValue("@balqty", bq);
-                command.Parameters.AddWithValue("@itemid", DropDownList1.SelectedValue);
-                command.ExecuteNonQuery();
+                Response.Write("<br>newupdateqty " + bq.ToString());
+                if (bq < 0)
+                {
+                    Label1.Text = "stock not available";
+                }
+                else
+                {
+                    //if (transt == "I")
+                    //{
+                    //    bq = bq - Convert.ToInt32(TextBox2.Text);
+                    //}
+                    //else if (transt == "R")
+                    //{
+                    //    bq = bq + Convert.ToInt32(TextBox2.Text);
+                    //}
 
-                Label1.Text = "record updated successfully";
+                    //updating bal qty on item master table
+                    query = "update ItemMaster set BalQty=@balqty where Itemid=@itemid";
+                    command = new SqlCommand(query, con);
+                    command.Parameters.AddWithValue("@balqty", bq);
+                    command.Parameters.AddWithValue("@itemid", DropDownList1.SelectedValue);
+                    command.ExecuteNonQuery();
+
+                    Label1.Text = "record updated successfully";
+                }
             }
             catch (Exception ex)
             {
@@ -137,6 +161,8 @@ namespace Drivendb
 
         
         }
+        
+
 
         protected void Button3_Click(object sender, EventArgs e)
         {
@@ -208,12 +234,28 @@ namespace Drivendb
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             TextBox2.Text = GridView1.SelectedRow.Cells[4].Text;
-            TextBox3.Text = GridView1.SelectedRow.Cells[5].Text;
+           // TextBox3.Text = GridView1.SelectedRow.Cells[5].Text;
+            oldtransqty =Convert.ToInt32(TextBox2.Text);
+            DateTime dd = Convert.ToDateTime(GridView1.SelectedRow.Cells[5].Text);
+            TextBox3.Text = dd.ToString("yyyy-MM-dd");
             DropDownList1.SelectedValue = GridView1.SelectedRow.Cells[1].Text;
-//if(RadioButton1.Checked)
+            
+            string res = GridView1.SelectedRow.Cells[3].Text;
+            if (res =="I")
             {
-
+                RadioButton2.Checked = false;
+                RadioButton1.Checked = true;
             }
+            if(res =="R")
+            {
+                RadioButton1.Checked= false;
+                RadioButton2.Checked= true;
+            }
+            transid = Convert.ToInt32(GridView1.SelectedRow.Cells[1].Text);
+
+            
+
+            
         }
     }
 }
