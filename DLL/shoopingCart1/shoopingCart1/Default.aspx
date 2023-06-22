@@ -47,7 +47,7 @@ Register as a Meesho Supplier
 </div>
 <hr />
 <div class="row">
-<h1 align=center>_________________Top Categories to choose from________________________</h1>
+<h1 align=center>______________________Top Categories to choose from______________________</h1>
 
 </div>
 <hr />
@@ -69,7 +69,8 @@ Register as a Meesho Supplier
 border: dashed 2px #04AFEF; background-color: #FFFFFF">
 <tr>
 <td align="center">
-<asp:Image ID="a1" ImageUrl='<%# Bind("prodimage", "~/imges/{0}") %>' runat="server"
+    <a href='<%# Eval("Prodid","Productdetails.aspx?Prodid={0}") %>'>
+<asp:Image ID="a1" ImageUrl='<%# Bind("ProdImage", "~/imges/{0}") %>' runat="server"
 
 Height="100"
 
@@ -80,9 +81,10 @@ Width="100" />
 
 <tr>
 <td align="center">
-<span > <%# Eval("prodname") %></span><br />
-<span > <%# Eval("proddescription") %></span><br />
-<span >Rs. <%# Eval("prodprice") %> onwards</span><br />
+
+<span > <%# Eval("ProdName") %></span><br />
+<span > <%# Eval("Proddescription") %></span><br />
+<span >Rs. <%# Eval("ProdPrice") %> onwards</span><br />
 
 </td>
 </tr>
