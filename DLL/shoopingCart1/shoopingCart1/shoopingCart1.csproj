@@ -104,6 +104,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Cart.aspx" />
+    <Content Include="Checkmno.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="Cart.aspx.designer.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkmno.aspx.cs">
+      <DependentUpon>Checkmno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkmno.aspx.designer.cs">
+      <DependentUpon>Checkmno.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

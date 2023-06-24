@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+div class="text-center">
+<h1 class="display-4">Welcome to The Employee</h1>
+<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@{
+    string username = "Karishma";
+    int id = 123;
+    string address = "Nagpur";
+    int mobno = 1234455;
+    string emailid = "@kari";
+}
+<p>Employee Name:@username</p>
+<p>Employee id:@id</p>
+<p>Employee address:@address</p>
+<p>Employee mobno:@mobno</p>
+<p>Employee emailid:@emailid</p>
+@{
+    var joe = new Person("Karishma", 25);
+}
+<p>Date.Time.Now</p>
+<p>@DateTime.IsLeapYear(2016)</p>
+<p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>
+@{
+    var Karishma = new Person("Karishma:", 25);
+}
+<p>name@(Karishma.Name)</p>
+<p>Age@(Karishma.Age)</p>

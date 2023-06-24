@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="text-center">
+<h1 class="display-4">Welcome</h1>
+<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<h2 > Person Details</h2>
+
+@Html.Raw("<span> Hello World </span>")
+
+   
+@{
+    string[] people = { "Karishma", "Tanu", "Monu", "Tanmay", "Ashish" };
+    {
+        @for(var i=0;i<people.Length;i++)
+        {
+            var person = people[i];
+            <text>Name:@person<br /></text>
+        }
+
+    }
+
+
+}
+
+    @{ var value = 102; }
+    @if(value %2 == 0)
+    {
+        <p>The value was even</p>
+    }
+    else
+    {
+        <p> The value was old</p>
+    }
+@{
+    var username = "admin";
+    var pass = "admin";
+}
+
+@if(username=="admin" && pass=="admin")
+{
+    <p>login successful</p>
+}
+else
+{
+    <p>invalid username or password</p>
+}
+@{
+    var age = 12;
+}
+@(age<18)
+    {
+
+    }
