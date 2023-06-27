@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model mvcemployee.Models.Employe
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <H4>Employee Details</H4>
+    <br />
+    <b>Employee Name:</b>
+    @Html.TextAreaFor(m=>EmpName)
+    <br />
+    <b>Basic Salary:</b>
+    @Html.TextBoxFor(m=>m.BasicSalary)
+    <br />
+    <span>Hra</span>
+    @Html.CheckBoxFor(m=>m.Hra,true)
+    <br />
+    <span>Da</span>
+    @Html.CheckBoxFor(m=>m.Da,false)
+    <br />
+    <span>Ta</span>
+    @Html.CheckBoxFor(m=>m.Ta,false)
+    <br />
+    <input type="submit" value="Ok" />
+}
+<hr />
+<h4>----Total Salary----</h4>
+<br />
+Hra:@ViewBag.result1
+<br />
+Da:@ViewBag.result2
+<br />
+Ta:@ViewBag.result3
+<br />

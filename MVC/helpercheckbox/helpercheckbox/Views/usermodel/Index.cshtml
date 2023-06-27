@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model helpercheckbox.Models.usermodel
+
+@using (Html.BeginForm("index","usermodel",FormMethod.Post))
+{
+    <h1>Karishma Store</h1><br/>
+  @*  <span>Tea:</span>@Html.CheckBox("Tea",true)
+    <br/>
+    <span>loundry</span>@Html.CheckBox("loundry",false)
+    <br />
+    <span>Breakfast</span>@Html.CheckBox("Breakfast",false)
+    <br />
+    <span>Locked</span>@Html.CheckBox("Locked",false)
+    <br />
+    <span>Table</span>@Html.CheckBox("Table",false)
+    <br/>*@
+    //Checkboxfor checking
+    <span>Tea:</span>
+
+    <span>Tea: </span> @Html.CheckBoxFor(m => m.Tea, true)
+    <br />
+    <span>loundry:</span>@Html.CheckBoxFor(m=> m.loundry,false)
+    <br/>
+
+    <span>Breakfast:</span>
+
+    @Html.CheckBoxFor(m=> m.Breakfast,false)
+    <br />
+    <span>Locked:</span>
+
+    @Html.CheckBoxFor(m=> m.Locked,false)
+    <br />
+
+    <span>Table:</span>
+
+    @Html.CheckBoxFor(m=> m.Table,false)
+    <br />
+    <input type="submit" value="ok"/>
+    <br />
+}
+<h3>Total order</h3>
+<b>Tea:</b>@ViewBag.Tea
+<br/>
+<b>loundry:</b>@ViewBag.loundry
+<br />
+<b>Breakfast:</b>@ViewBag.Breakfast
+<br />
+<b>Locked:</b>@ViewBag.Locked
+<br />
+<b>Table:</b>@ViewBag.Table
+<br />
