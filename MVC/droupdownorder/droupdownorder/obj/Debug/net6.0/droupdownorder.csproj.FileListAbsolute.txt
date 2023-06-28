@@ -1,0 +1,8 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.AssemblyInfoInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.AssemblyInfo.cs
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.csproj.CoreCompileInputs.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.RazorAssemblyInfo.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\droupdownorder\droupdownorder\obj\Debug\net6.0\droupdownorder.RazorAssemblyInfo.cs
