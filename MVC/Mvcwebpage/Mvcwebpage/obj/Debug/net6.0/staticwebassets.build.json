@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B5vzQZ25LwbEfRAZo3HiQFdmmS3zxUDxqR3jeZ8GxR8=",
+  "Hash": "nuaarQ225FGzzDkEfyL1fUQJ0f6bDaGVIEpcdzxsrE4=",
   "Source": "Mvcwebpage",
   "BasePath": "_content/Mvcwebpage",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\YOGESH\\Desktop\\dotnet\\MKPITS_Karishma_pachdhare_feb2023\\MVC\\Mvcwebpage\\Mvcwebpage\\wwwroot\\persistent.jpg",
+      "SourceId": "Mvcwebpage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\YOGESH\\Desktop\\dotnet\\MKPITS_Karishma_pachdhare_feb2023\\MVC\\Mvcwebpage\\Mvcwebpage\\wwwroot\\",
+      "BasePath": "_content/Mvcwebpage",
+      "RelativePath": "persistent.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\persistent.jpg"
     }
   ]
 }

@@ -2,18 +2,11 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
 
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+
+
 @model mvcorder.Models.Customer
-@using (Html.BeginForm("Index", "Cusdetails", FormMethod.Post))
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
 {
     <h1>Product  Details</h1>
     <br />
@@ -41,7 +34,7 @@
 
     <br />
     <hr />
-    <input type="submit" values="ok" />
+    <input type="submit" values="submit" />
     <hr />
 }
 <h1>output</h1>

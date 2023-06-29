@@ -26,7 +26,7 @@ namespace mvcorder.Controllers
         public IActionResult Index(Customer c)
         {
             ViewBag.orderno = c.orderno;
-            ViewBag.customernam = c.customername;
+            ViewBag.customername = c.customername;
             ViewBag.price = c.price;
             ViewBag.qty = c.qty;
             int total = c.price * c.qty;
