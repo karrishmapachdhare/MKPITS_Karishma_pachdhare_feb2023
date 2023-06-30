@@ -18,27 +18,9 @@ namespace signupform.Controllers
             return View();
         }
 
-        [HttpPost]
+        
 
-        public ActionResult Index(signup u)
-        {
-            ViewBag.username = u.username;
-            ViewBag.password = u.password;
-            ViewBag.email = u.email;
-            ViewBag.gender = u.gender;
-            ViewBag.subject1 = null;
-            ViewBag.subject2 = null;
-            if (u.subject1 == true)
-            {
-                ViewBag.subject1 = "dotnet";
-            }
-            if (u.subject2 == true)
-            {
-                ViewBag.subject2 = "java";
-            }
-
-            return View();
-        }
+      
         public IActionResult Privacy()
         {
             return View();

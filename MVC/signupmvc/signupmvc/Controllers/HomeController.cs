@@ -17,8 +17,30 @@ namespace signupmvc.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult Index(Signup su)
+        {
+            ViewBag.uname = su.username;
+            ViewBag.Gen = su.gender;
 
-        public IActionResult Privacy()
+            var ct = su.getcitytype;
+            ViewBag.city = ct.ToString();
+
+            ViewBag.subject1 = null;
+            ViewBag.subject2 = null;
+            if (su.subject1 == true)
+            {
+                ViewBag.subject1 = "dotnet";
+            }
+            if (su.subject2 == true)
+
+            {
+                ViewBag.subject = "java";
+            }
+
+            return View();
+        }
+            public IActionResult Privacy()
         {
             return View();
         }
