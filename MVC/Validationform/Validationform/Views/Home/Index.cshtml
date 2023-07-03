@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@model Validationform.Models.UserModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>User Entry Form</h1>
+</div>
+
+<div class="row">
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td>User Name : </td>
+                <td>@Html.TextBoxFor(m => m.UserName)</td>
+            </tr>
+            <tr>
+                <td>Mobile No : </td>
+
+                <td>@Html.TextBoxFor(m => m.MobileNumber)</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="submit" /></td>
+            </tr>
+        </table>
+        @Html.ValidationSummary(false, "", new { @class = "alert-danger"})
+    }
+   
+      Name:@ViewBag.user
+      <br/>
+      
+      Number:@ViewBag.Number

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\validex1.props" />
+</Project>
