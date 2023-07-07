@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CountryTableModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'CountryTable.dbo.tblCity' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tblCity">
+    <Key>
+      <PropertyRef Name="Cityid" />
+      <PropertyRef Name="stateid" />
+    </Key>
+    <Property Name="Cityid" Type="int" Nullable="false" />
+    <Property Name="CityName" Type="nvarchar" MaxLength="50" />
+    <Property Name="stateid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblState">
+    <Key>
+      <PropertyRef Name="stateid" />
+    </Key>
+    <Property Name="stateid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="statename" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="f1">
+    <End Role="tblState" Type="Self.tblState" Multiplicity="1" />
+    <End Role="tblCity" Type="Self.tblCity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblState">
+        <PropertyRef Name="stateid" />
+      </Principal>
+      <Dependent Role="tblCity">
+        <PropertyRef Name="stateid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CountryTableModelStoreContainer">
+    <EntitySet Name="tblState" EntityType="Self.tblState" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblCity" EntityType="Self.tblCity" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tblCity].[Cityid] AS [Cityid], 
+    [tblCity].[CityName] AS [CityName], 
+    [tblCity].[stateid] AS [stateid]
+    FROM [dbo].[tblCity] AS [tblCity]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="f1" Association="Self.f1">
+      <End Role="tblState" EntitySet="tblState" />
+      <End Role="tblCity" EntitySet="tblCity" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
