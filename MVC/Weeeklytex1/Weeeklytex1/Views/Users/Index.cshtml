@@ -1,0 +1,28 @@
+﻿
+<h4 style=" colour:purple">
+    <b>ID:</b> @ViewBag.ID <br />
+    <b>Name:</b>@ViewBag.Name<br />
+    <b>Addon:</b>@ViewBag.Addon<br />
+</h4>
+<hr>
+<h3><b>Form:Weekly Typed</b><</h3>
+<form action="form" method="post">
+    <table>
+        <tr>
+       
+            <td>Enter ID: </td>
+            <td><input type="text" name="txtId" /></td>
+        </tr>
+        <tr>
+            <td>Enter Name: </td>
+            <td><input type="text" name="txtName" /></td>
+        </tr>
+        <tr>
+            <td>Addon: </td>
+            <td><input type="checkbox" name="chkAddon" /></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Submit Form" /></td>
+        </tr>
+    </table>
+</form>
