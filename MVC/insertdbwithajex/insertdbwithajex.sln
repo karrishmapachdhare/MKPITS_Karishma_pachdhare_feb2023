@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "insertdbwithajex", "insertdbwithajex\insertdbwithajex.csproj", "{8302E11A-346B-4579-A79C-0F20328BFEEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8302E11A-346B-4579-A79C-0F20328BFEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8302E11A-346B-4579-A79C-0F20328BFEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8302E11A-346B-4579-A79C-0F20328BFEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8302E11A-346B-4579-A79C-0F20328BFEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7204ABB6-CF95-4FD6-9945-4905BD6370A0}
+	EndGlobalSection
+EndGlobal

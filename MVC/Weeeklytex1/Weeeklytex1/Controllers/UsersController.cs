@@ -22,5 +22,7 @@ namespace Weeeklytex1.Controllers
                 ViewBag.Addon = "Selected";
             else
                 ViewBag.Addon = "Not Selected";
+
         }
+    }
 }

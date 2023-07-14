@@ -1,0 +1,2 @@
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\insertdbwithajex\insertdbwithajex\obj\Debug\insertdbwithajex.csproj.AssemblyReference.cache
+C:\Users\YOGESH\Desktop\dotnet\MKPITS_Karishma_pachdhare_feb2023\MVC\insertdbwithajex\insertdbwithajex\obj\Debug\insertdbwithajex.csproj.CoreCompileInputs.cache

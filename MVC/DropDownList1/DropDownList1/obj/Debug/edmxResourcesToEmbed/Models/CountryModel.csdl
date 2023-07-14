@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CountryTableModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblState">
+    <Key>
+      <PropertyRef Name="stateid" />
+    </Key>
+    <Property Name="stateid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="statename" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblCities" Relationship="Self.f1" FromRole="tblState" ToRole="tblCity" />
+  </EntityType>
+  <EntityType Name="tblCity">
+    <Key>
+      <PropertyRef Name="Cityid" />
+      <PropertyRef Name="stateid" />
+    </Key>
+    <Property Name="Cityid" Type="Int32" Nullable="false" />
+    <Property Name="CityName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="stateid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblState" Relationship="Self.f1" FromRole="tblCity" ToRole="tblState" />
+  </EntityType>
+  <Association Name="f1">
+    <End Role="tblState" Type="Self.tblState" Multiplicity="1" />
+    <End Role="tblCity" Type="Self.tblCity" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblState">
+        <PropertyRef Name="stateid" />
+      </Principal>
+      <Dependent Role="tblCity">
+        <PropertyRef Name="stateid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CountryTableEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblStates" EntityType="Self.tblState" />
+    <EntitySet Name="tblCities" EntityType="Self.tblCity" />
+    <AssociationSet Name="f1" Association="Self.f1">
+      <End Role="tblState" EntitySet="tblStates" />
+      <End Role="tblCity" EntitySet="tblCities" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
