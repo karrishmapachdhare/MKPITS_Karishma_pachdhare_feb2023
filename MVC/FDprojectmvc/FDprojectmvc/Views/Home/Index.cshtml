@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Product Store</h2>
+<fieldset>
+    <legend>Customer Details</legend>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    Full Name: <input style="text-align:left" type="text" id="fullname"
+                                      name="fullname" class="form-control" />
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    Nationality:<br />
+                    <input style="margin:10px;" type="radio" id="nationality"
+                           name="nationality" value="indian" />Indian
+                    <input style="margin:10px;" type="radio" id="nationality"
+                           name="nationality" value="nri" />NRI
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Contact:
+
+                    <input style="text-align:left; font-weight:bold" name="contact" type="text" id="contact"
+                           class="form-control" />
+                </div>
+            </div>
+        </div>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>
+        Invoice Details:
+    </legend>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    Invoice Date :<input style="text-align:left; font-weight:bold" name="invoicedate" type="date" id="invoicedate"
+                                         class="form-control" />
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Product Category :
+                    @Html.DropDownList("ProductCategory", new SelectList(Model.Item1, "Value", "Text"),
+                                         new { @class = "form-control" })
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Product:
+                    @*   @Html.DropDownList("Product", new SelectList(Model.Item2, "Value", "Text"),
+                        new { @class = "form-control" })*@
+                </div>
+            </div>
+        </div>
+
+</fieldset>

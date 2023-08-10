@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="fendhlModelStoreContainer" CdmEntityContainer="fendhlEntities">
+    <EntitySetMapping Name="InvoiceDetails">
+      <EntityTypeMapping TypeName="fendhlModel.InvoiceDetail">
+        <MappingFragment StoreEntitySet="InvoiceDetails">
+          <ScalarProperty Name="Invoice_Detail_Id" ColumnName="Invoice_Detail_Id" />
+          <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+          <ScalarProperty Name="Customer_Contact" ColumnName="Customer_Contact" />
+          <ScalarProperty Name="Product_Category_Id" ColumnName="Product_Category_Id" />
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+          <ScalarProperty Name="Residential_Type_Id" ColumnName="Residential_Type_Id" />
+          <ScalarProperty Name="Invoice_Date" ColumnName="Invoice_Date" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CGST" ColumnName="CGST" />
+          <ScalarProperty Name="SGST" ColumnName="SGST" />
+          <ScalarProperty Name="IGST" ColumnName="IGST" />
+          <ScalarProperty Name="CGST_Value" ColumnName="CGST_Value" />
+          <ScalarProperty Name="SGST_Value" ColumnName="SGST_Value" />
+          <ScalarProperty Name="IGST_Value" ColumnName="IGST_Value" />
+          <ScalarProperty Name="Total_Amount" ColumnName="Total_Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvoiceDetails1">
+      <EntityTypeMapping TypeName="fendhlModel.InvoiceDetails1">
+        <MappingFragment StoreEntitySet="InvoiceDetails1">
+          <ScalarProperty Name="Invoice_Detail_Id" ColumnName="Invoice_Detail_Id" />
+          <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+          <ScalarProperty Name="Customer_Contact" ColumnName="Customer_Contact" />
+          <ScalarProperty Name="Product_Category_Id" ColumnName="Product_Category_Id" />
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+          <ScalarProperty Name="Residential_Type_Id" ColumnName="Residential_Type_Id" />
+          <ScalarProperty Name="Invoice_Date" ColumnName="Invoice_Date" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CGST" ColumnName="CGST" />
+          <ScalarProperty Name="SGST" ColumnName="SGST" />
+          <ScalarProperty Name="IGST" ColumnName="IGST" />
+          <ScalarProperty Name="CGST_Value" ColumnName="CGST_Value" />
+          <ScalarProperty Name="SGST_Value" ColumnName="SGST_Value" />
+          <ScalarProperty Name="IGST_Value" ColumnName="IGST_Value" />
+          <ScalarProperty Name="Total_Amount" ColumnName="Total_Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="fendhlModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+          <ScalarProperty Name="ProductTypeId" ColumnName="ProductTypeId" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductCategories">
+      <EntityTypeMapping TypeName="fendhlModel.ProductCategory">
+        <MappingFragment StoreEntitySet="ProductCategory">
+          <ScalarProperty Name="Product_Category_Id" ColumnName="Product_Category_Id" />
+          <ScalarProperty Name="Product_type_Name" ColumnName="Product_type_Name" />
+          <ScalarProperty Name="Product_Gst_id" ColumnName="Product_Gst_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductGstDetails">
+      <EntityTypeMapping TypeName="fendhlModel.ProductGstDetail">
+        <MappingFragment StoreEntitySet="ProductGstDetails">
+          <ScalarProperty Name="Product_Gst_Id" ColumnName="Product_Gst_Id" />
+          <ScalarProperty Name="Gst_Detail_Name" ColumnName="Gst_Detail_Name" />
+          <ScalarProperty Name="CGST" ColumnName="CGST" />
+          <ScalarProperty Name="SGST" ColumnName="SGST" />
+          <ScalarProperty Name="IGST" ColumnName="IGST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products1">
+      <EntityTypeMapping TypeName="fendhlModel.Product1">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+          <ScalarProperty Name="ProductTypeId" ColumnName="ProductTypeId" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product_Name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

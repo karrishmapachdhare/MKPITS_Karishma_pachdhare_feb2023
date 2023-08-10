@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="22bbf07961a94e14a7bb6b4e6bf55368" Name="Diagram1">
+        <EntityTypeShape EntityType="fendhlModel3.InvoiceDetail" Width="1.5" PointX="7.5" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="fendhlModel3.InvoiceDetails1" Width="1.5" PointX="10.5" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="fendhlModel3.Product" Width="1.5" PointX="5.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="fendhlModel3.ProductCategory" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="fendhlModel3.ProductGstDetail" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="fendhlModel3.Product1" Width="1.5" PointX="5.25" PointY="20" IsExpanded="true" />
+        <AssociationConnector Association="fendhlModel3.c3" ManuallyRouted="false" />
+        <AssociationConnector Association="fendhlModel3.c4" ManuallyRouted="false" />
+        <AssociationConnector Association="fendhlModel3.l1" ManuallyRouted="false" />
+        <AssociationConnector Association="fendhlModel3.l2" ManuallyRouted="false" />
+        <AssociationConnector Association="fendhlModel3.c2" ManuallyRouted="false" />
+        <AssociationConnector Association="fendhlModel3.c1" ManuallyRouted="false" />
+        <AssociationConnector Association="fendhlModel3.c5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

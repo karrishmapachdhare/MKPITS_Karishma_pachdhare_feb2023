@@ -151,6 +151,7 @@
     <Content Include="imges\a9.jpg" />
     <Content Include="imges\H1.JPG" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="Logout.aspx" />
     <Content Include="Proddetails.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -255,6 +256,13 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Proddetails.aspx.cs">
       <DependentUpon>Proddetails.aspx</DependentUpon>

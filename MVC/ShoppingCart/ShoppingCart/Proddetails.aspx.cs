@@ -94,7 +94,7 @@ namespace ShoppingCart
 
             if (r == 0)
             {
-                str = "insert into cttable3 values('" + pid + "','" + pname + "','" + pdescription + "','" + pprice + "','" + pimage + "','" + Session["sessionid"].ToString() + "'," + qty + ")";
+                str = "insert into cttable3 values('" + pid + "','" + pname + "','" + pdescription + "','" + pprice + "','" + pimage + "','" + Session["SessionId"].ToString() + "'," + qty + ")";
                 SqlCommand command = new SqlCommand(str, con);
                 con.Open();
                 command.ExecuteNonQuery();
@@ -104,7 +104,7 @@ namespace ShoppingCart
             }
             else
             {
-                str = "update cttable3 set Quantity=Quantity+1 where Prodid='" + pid + "' and Sessionid='" + Session["Sessionid"].ToString() + "'";
+                str = "update cttable3 set Quantity=Quantity+1 where Prodid='" + pid + "' and SessionId='" + Session["SessionId"].ToString() + "'";
 
                 SqlCommand command = new SqlCommand(str, con);
                 con.Open();
