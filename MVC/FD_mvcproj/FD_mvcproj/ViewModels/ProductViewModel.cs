@@ -7,5 +7,7 @@ namespace FD_mvcproj.ViewModels
 {
     public class ProductViewModel
     {
+
+
     }
 }

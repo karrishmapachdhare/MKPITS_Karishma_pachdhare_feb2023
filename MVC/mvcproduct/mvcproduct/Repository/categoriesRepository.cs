@@ -8,10 +8,10 @@ namespace mvcproduct.Repository
 {
     public class categoriesRepository
     {
-        private readonly fendhlEntities1 fpe;
+        private readonly fendhlEntities fpe;
         public categoriesRepository()
         {
-            fpe = new fendhlEntities1();
+            fpe = new fendhlEntities();
         }
 
         public IEnumerable<SelectListItem> GetAllCategories()

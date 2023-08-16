@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="fendhlModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="InvoiceDetail">
+    <Key>
+      <PropertyRef Name="Invoice_Detail_Id" />
+    </Key>
+    <Property Name="Invoice_Detail_Id" Type="Int32" Nullable="false" />
+    <Property Name="Customer_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Customer_Contact" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Product_Category_Id" Type="Int32" />
+    <Property Name="Product_Id" Type="Int32" />
+    <Property Name="Residential_Type_Id" Type="Int32" />
+    <Property Name="Invoice_Date" Type="DateTime" Precision="3" />
+    <Property Name="Quantity" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CGST_Value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SGST_Value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IGST_Value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Total_Amount" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="ProductCategory" Relationship="Self.c3" FromRole="InvoiceDetails" ToRole="ProductCategory" />
+    <NavigationProperty Name="Product" Relationship="Self.c4" FromRole="InvoiceDetails" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="InvoiceDetails1">
+    <Key>
+      <PropertyRef Name="Invoice_Detail_Id" />
+    </Key>
+    <Property Name="Invoice_Detail_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Customer_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Customer_Contact" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Product_Category_Id" Type="Int32" />
+    <Property Name="Product_Id" Type="Int32" />
+    <Property Name="Residential_Type_Id" Type="Int32" />
+    <Property Name="Invoice_Date" Type="DateTime" Precision="3" />
+    <Property Name="Quantity" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CGST_Value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SGST_Value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IGST_Value" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Total_Amount" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="ProductCategory" Relationship="Self.l1" FromRole="InvoiceDetails1" ToRole="ProductCategory" />
+    <NavigationProperty Name="Product" Relationship="Self.l2" FromRole="InvoiceDetails1" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Product_Id" />
+    </Key>
+    <Property Name="Product_Id" Type="Int32" Nullable="false" />
+    <Property Name="ProductTypeId" Type="Int32" />
+    <Property Name="Product_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="InvoiceDetails" Relationship="Self.c4" FromRole="Product" ToRole="InvoiceDetails" />
+    <NavigationProperty Name="ProductCategory" Relationship="Self.c2" FromRole="Product" ToRole="ProductCategory" />
+  </EntityType>
+  <EntityType Name="ProductCategory">
+    <Key>
+      <PropertyRef Name="Product_Category_Id" />
+    </Key>
+    <Property Name="Product_Category_Id" Type="Int32" Nullable="false" />
+    <Property Name="Product_type_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Product_Gst_id" Type="Int32" />
+    <NavigationProperty Name="InvoiceDetails" Relationship="Self.c3" FromRole="ProductCategory" ToRole="InvoiceDetails" />
+    <NavigationProperty Name="InvoiceDetails1" Relationship="Self.l1" FromRole="ProductCategory" ToRole="InvoiceDetails1" />
+    <NavigationProperty Name="Products" Relationship="Self.c2" FromRole="ProductCategory" ToRole="Product" />
+    <NavigationProperty Name="ProductGstDetail" Relationship="Self.c1" FromRole="ProductCategory" ToRole="ProductGstDetails" />
+    <NavigationProperty Name="Products1" Relationship="Self.c5" FromRole="ProductCategory" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductGstDetail">
+    <Key>
+      <PropertyRef Name="Product_Gst_Id" />
+    </Key>
+    <Property Name="Product_Gst_Id" Type="Int32" Nullable="false" />
+    <Property Name="Gst_Detail_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="CGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SGST" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IGST" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="ProductCategories" Relationship="Self.c1" FromRole="ProductGstDetails" ToRole="ProductCategory" />
+  </EntityType>
+  <EntityType Name="Product1">
+    <Key>
+      <PropertyRef Name="Product_Id" />
+    </Key>
+    <Property Name="Product_Id" Type="Int32" Nullable="false" />
+    <Property Name="ProductTypeId" Type="Int32" />
+    <Property Name="Product_Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Int32" />
+    <NavigationProperty Name="InvoiceDetails1" Relationship="Self.l2" FromRole="Products" ToRole="InvoiceDetails1" />
+    <NavigationProperty Name="ProductCategory" Relationship="Self.c5" FromRole="Products" ToRole="ProductCategory" />
+  </EntityType>
+  <Association Name="c3">
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="0..1" />
+    <End Role="InvoiceDetails" Type="Self.InvoiceDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="Product_Category_Id" />
+      </Principal>
+      <Dependent Role="InvoiceDetails">
+        <PropertyRef Name="Product_Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="c4">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="InvoiceDetails" Type="Self.InvoiceDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Id" />
+      </Principal>
+      <Dependent Role="InvoiceDetails">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="l1">
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="0..1" />
+    <End Role="InvoiceDetails1" Type="Self.InvoiceDetails1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="Product_Category_Id" />
+      </Principal>
+      <Dependent Role="InvoiceDetails1">
+        <PropertyRef Name="Product_Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="l2">
+    <End Role="Products" Type="Self.Product1" Multiplicity="0..1" />
+    <End Role="InvoiceDetails1" Type="Self.InvoiceDetails1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Product_Id" />
+      </Principal>
+      <Dependent Role="InvoiceDetails1">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="c2">
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="Product_Category_Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ProductTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="c1">
+    <End Role="ProductGstDetails" Type="Self.ProductGstDetail" Multiplicity="0..1" />
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductGstDetails">
+        <PropertyRef Name="Product_Gst_Id" />
+      </Principal>
+      <Dependent Role="ProductCategory">
+        <PropertyRef Name="Product_Gst_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="c5">
+    <End Role="ProductCategory" Type="Self.ProductCategory" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Product1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="Product_Category_Id" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="ProductTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="fendhlEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="InvoiceDetails" EntityType="Self.InvoiceDetail" />
+    <EntitySet Name="InvoiceDetails1" EntityType="Self.InvoiceDetails1" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="ProductCategories" EntityType="Self.ProductCategory" />
+    <EntitySet Name="ProductGstDetails" EntityType="Self.ProductGstDetail" />
+    <EntitySet Name="Products1" EntityType="Self.Product1" />
+    <AssociationSet Name="c3" Association="Self.c3">
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+      <End Role="InvoiceDetails" EntitySet="InvoiceDetails" />
+    </AssociationSet>
+    <AssociationSet Name="c4" Association="Self.c4">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="InvoiceDetails" EntitySet="InvoiceDetails" />
+    </AssociationSet>
+    <AssociationSet Name="l1" Association="Self.l1">
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+      <End Role="InvoiceDetails1" EntitySet="InvoiceDetails1" />
+    </AssociationSet>
+    <AssociationSet Name="l2" Association="Self.l2">
+      <End Role="Products" EntitySet="Products1" />
+      <End Role="InvoiceDetails1" EntitySet="InvoiceDetails1" />
+    </AssociationSet>
+    <AssociationSet Name="c2" Association="Self.c2">
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="c1" Association="Self.c1">
+      <End Role="ProductGstDetails" EntitySet="ProductGstDetails" />
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+    </AssociationSet>
+    <AssociationSet Name="c5" Association="Self.c5">
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+      <End Role="Products" EntitySet="Products1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
