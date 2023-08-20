@@ -11,27 +11,179 @@
         loadItem();
         $("#Category").change(function () {
             loadItem();
+
+        });
+
+        $("#Products").change(function () {
+            var catid = $("#Category").val();
+
+            var pid = $("#Products").val();
+            GetPrice(pid);
+        });
+
+        $("input[type=text]").change(function () {
+            Calculatetotalamount();
+            Calculategstamount();
+        });
+
+        $("input[type=text]").keyup(function () {
+            Calculatetotalamount();
+            Calculategstamount();
+        });
+
+        $("#btnSave").click(function () {
+            FinalPayment();
         });
 
     });
 
+
+    function FinalPayment() {
+        var objInvoiceViewModel = {};
+        objInvoiceViewModel.Customer_Name = $("#fullname").val();
+        objInvoiceViewModel.Customer_Contact = $("#contact").val();
+        objInvoiceViewModel.Product_Category_ID = $("#Category").val();
+        objInvoiceViewModel.Product_ID = $("#Products").val();
+        objInvoiceViewModel.Residential_Type_ID = 1001;
+        objInvoiceViewModel.Invoice_Date = $("#invoicedate").val();
+        objInvoiceViewModel.Quantity = $("#quantity").val();
+        objInvoiceViewModel.Price = $("#Price").val();
+        objInvoiceViewModel.CGST = $("#cgst").val();
+        objInvoiceViewModel.SGST = $("#sgst").val();
+        objInvoiceViewModel.IGST = $("#igst").val();
+        objInvoiceViewModel.CGST_Value = $("#cgstamount").val();
+        objInvoiceViewModel.SGST_Value = $("#sgstamount").val();
+        objInvoiceViewModel.IGST_Value = $("#igstamount").val();
+        objInvoiceViewModel.Total_Amount = $("#netamount").val();
+
+
+
+        $.ajax({
+            async: true,
+            type: 'POST',
+            dataType: 'JSON',
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(objInvoiceViewModel),
+            url: '/home/Index',
+            success: function (data) { alert(data) },
+            error: function () { alert(data) }
+        });
+
+        //  ResetItems();
+        // ResetItemsDetails();
+    }
+
+
+
     function loadItem() {
         var catid = $("#Category").val();
-    //    alert(catid);
+
         GetProduct(catid);
-        //var pid = $("#Product").val();
-        //GetPrice(pid);
+        //to fill gst details
+        GetGst(catid);
+
+
+        var pid = $("#Products").val();
+        GetPrice(pid);
+
+        reset();
+
     }
     function GetProduct(catid) {
 
-        $.get("/Home/getAllProduct", { catid: $("#Category").val() }, function (data) {
+        $.get("/Home/getAllProducts", { catid: $("#Category").val() }, function (data) {
             //  alert("catid " + catid);
-            $("#Product").empty();
+            $("#Products").empty();
             $.each(data, function (index, row) {
-                $("#Product").append("<option value='" + row.ProductId + "'>" + row.Product_Name + "</option>")
+                $("#Products").append("<option value='" + row.ProductID + "'>" + row.Product_Name + "</option>")
+            });
+        });
+        reset();
+    }
+
+    function GetGst(catid) {
+        var gstid1 = 0;
+        $.get("/Home/getGstId", { catid: $("#Category").val() }, function (data) {
+
+            $.each(data, function (index, row) {
+                gstid1 = row.Product_Gst_ID;
+                alert("gst id : " + gstid1);
+
+            });
+
+            var cgst = 0;
+            var sgst = 0;
+            var igst = 0;
+
+            $.get("/Home/getGstDetails", { gstid: gstid1 }, function (data) {
+
+                $.each(data, function (index, row) {
+                    cgst = row.CGST;
+                    sgst = row.SGST;
+                    igst = row.IGST;
+
+                    //    $("#Products").append("<option value='" + row.ProductID + "'>" + row.Product_Name + "</option>")
+                });
+                $("#cgst").val(cgst);
+                $("#sgst").val(sgst);
+                $("#igst").val(igst);
             });
         });
 
+        reset();
+    }
+
+    function GetPrice(prodid) {
+        $.get("/Home/getPrice", { prodid: $("#Products").val() }, function (data) {
+
+            $.each(data, function (index, row) {
+
+                $("#Price").val(row.ProductPrice);
+            });
+        });
+        reset();
+    }
+
+    function Calculatetotalamount() {
+        var UnitPrice = $("#Price").val();
+        var Quantity = $("#quantity").val();
+
+
+        var Total = (UnitPrice * Quantity);
+
+        $("#totalamount").val(parseFloat(Total).toFixed(2));
+
+    }
+
+    function Calculategstamount() {
+        var cgst = $("#cgst").val();
+        var sgst = $("#sgst").val();
+        var igst = $("#igst").val();
+        var ta = $("#totalamount").val();
+        var cgsta = ta * (cgst / 100);
+        var sgsta = ta * (sgst / 100);
+        var igsta = ta * (igst / 100);
+        // alert("cgsta " + cgsta);
+        $("#cgstamount").val(cgsta);
+        $("#sgstamount").val(sgsta);
+        $("#igstamount").val(igsta);
+        //for indian
+        var tgst = cgsta + sgsta;
+        var tnet = parseInt(ta) + parseInt(tgst);
+        $("#netamount").val(tnet);
+
+
+
+
+    }
+
+    function reset() {
+        $("#quantity").val(0);
+        $("#totalamount").val(0);
+        $("#sgstamount").val(0);
+        $("#cgstamount").val(0);
+        $("#igstamount").val(0);
+        $("#netamount").val(0);
     }
 </script>
 
@@ -51,8 +203,8 @@
                 <div class="form-group">
                     Nationality:<br />
                     <input style="margin:10px;" type="radio" id="nationality"
-                           name="nationality" value="indian" />Indian
-                    <input style="margin:10px;" type="radio" id="nationality"
+                           name="nationality" value="indian" checked="checked" />Indian
+                    <input style="margin:10px;" type="radio" id="nationality2"
                            name="nationality" value="nri" />NRI
 
                 </div>
@@ -87,7 +239,7 @@
             <div class="col-md-4">
                 <div class="form-group">
                     Product Category :
-                   @Html.DropDownList("Category", new SelectList(Model.Item1, "Value", "Text"),
+                    @Html.DropDownList("Category", new SelectList(Model.Item1, "Value", "Text"),
                                          new { @class = "form-control" })
 
                 </div>
@@ -96,8 +248,39 @@
             <div class="col-md-4">
                 <div class="form-group">
                     Product:
-                    @Html.DropDownList("Product", new SelectList(Model.Item1, "Value", "Text"),
+                    @Html.DropDownList("Products", new SelectList(Model.Item1, "Value", "Text"),
                      new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Price:
+                    <input style="text-align:right" type="text" id="Price"
+                           value="0.00" name="Price" class="form-control" />
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Quantity:
+                    <input style="text-align:right" type="text" id="quantity"
+                           value="" name="quantity" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    Total Amount:
+                    <input style="text-align:right" type="text" id="totalamount"
+                           value="0.00" name="totalamount" class="form-control" />
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Net Amount:
+                    <input style="text-align:right" type="text" id="netamount"
+                           value="0.00" name="netamount" class="form-control" />
                 </div>
             </div>
         </div>
@@ -106,5 +289,79 @@
 
 
 
+<fieldset>
+    <legend>
+        GST Details:
+    </legend>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    CGST %:
+                    <input style="text-align:right" type="text" id="cgst"
+                           value="0.00" name="cgst" class="form-control" />
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Amount:
+                    <input style="text-align:right" type="text" id="cgstamount"
+                           value="" name="cgstamount" class="form-control" />
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    SGST %:
+                    <input style="text-align:right" type="text" id="sgst"
+                           value="0.00" name="sgst" class="form-control" />
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Amount:
+                    <input style="text-align:right" type="text" id="sgstamount"
+                           value="" name="sgstamount" class="form-control" />
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    IGST %:
+                    <input style="text-align:right" type="text" id="igst"
+                           value="0.00" name="igst" class="form-control" />
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    Amount:
+                    <input style="text-align:right" type="text" id="igstamount"
+                           value="" name="igstamount" class="form-control" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+</fieldset>
 
 
+<div class="mt-3" style="float:right">
+    <input type="button" value="Save" name="btnSave" id="btnSave"
+           class="btn btn-primary" />
+
+
+    <input type="button" value="Reset" name="Reset" id="btnReset"
+           class="btn btn-danger" />
+</div>
